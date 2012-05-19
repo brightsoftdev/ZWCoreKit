@@ -1,0 +1,1 @@
+extern void HMACSHA1(const unsigned char *data, NSUInteger dataLength, const unsigned char *key, NSUInteger keyLength, unsigned char *digestOut);

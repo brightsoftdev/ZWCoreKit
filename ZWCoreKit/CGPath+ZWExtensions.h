@@ -1,0 +1,1 @@
+extern CGPathRef CGPathCreateWithRoundedRect(CGRect rect, NSUInteger cornerRadius);

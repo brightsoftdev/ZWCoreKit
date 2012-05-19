@@ -1,0 +1,1488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE8F3768150067E000274C48 /* CALayer+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863A714914D18007CD136 /* CALayer+ZWExtensions.m */; };
+		EE8F3769150067E000274C48 /* CATiledLayer+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863A914914D18007CD136 /* CATiledLayer+ZWExtensions.m */; };
+		EE8F376A150067E000274C48 /* CATransaction+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863AB14914D18007CD136 /* CATransaction+ZWExtensions.m */; };
+		EE8F376B150067E000274C48 /* CGColor+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863AD14914D18007CD136 /* CGColor+ZWExtensions.m */; };
+		EE8F376C150067E000274C48 /* CGColorSpace+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863AF14914D18007CD136 /* CGColorSpace+ZWExtensions.m */; };
+		EE8F376D150067E000274C48 /* CGContext+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863B114914D18007CD136 /* CGContext+ZWExtensions.m */; };
+		EE8F376E150067E000274C48 /* CGImage+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863B314914D18007CD136 /* CGImage+ZWExtensions.m */; };
+		EE8F376F150067E000274C48 /* CGPath+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863B514914D18007CD136 /* CGPath+ZWExtensions.m */; };
+		EE8F3770150067E000274C48 /* CGPattern+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863B714914D18007CD136 /* CGPattern+ZWExtensions.m */; };
+		EE8F3771150067E000274C48 /* CGPoint+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863B914914D18007CD136 /* CGPoint+ZWExtensions.m */; };
+		EE8F3772150067E000274C48 /* CGRect+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863BB14914D18007CD136 /* CGRect+ZWExtensions.m */; };
+		EE8F3773150067E000274C48 /* CGSize+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863BD14914D18007CD136 /* CGSize+ZWExtensions.m */; };
+		EE8F3774150067E000274C48 /* CLLocation+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863F614914D18007CD136 /* CLLocation+ZWExtensions.m */; };
+		EE8F3775150067E000274C48 /* CoreLocation+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863F814914D18007CD136 /* CoreLocation+ZWExtensions.m */; };
+		EE8F3776150067E000274C48 /* NSArray+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98641614914D18007CD136 /* NSArray+ZWExtensions.m */; };
+		EE8F3777150067E000274C48 /* NSAutoreleasePool+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98641814914D18007CD136 /* NSAutoreleasePool+ZWExtensions.m */; };
+		EE8F3778150067E000274C48 /* NSCoder+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98641A14914D18007CD136 /* NSCoder+ZWExtensions.m */; };
+		EE8F3779150067E000274C48 /* NSData+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98641C14914D18007CD136 /* NSData+ZWExtensions.m */; };
+		EE8F377A150067E000274C48 /* NSDate+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98641E14914D18007CD136 /* NSDate+ZWExtensions.m */; };
+		EE8F377B150067E000274C48 /* NSDictionary+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642014914D18007CD136 /* NSDictionary+ZWExtensions.m */; };
+		EE8F377C150067E000274C48 /* NSEnumerator+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642214914D18007CD136 /* NSEnumerator+ZWExtensions.m */; };
+		EE8F377D150067E000274C48 /* NSFetchRequest+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642414914D18007CD136 /* NSFetchRequest+ZWExtensions.m */; };
+		EE8F377E150067E000274C48 /* NSFileManager+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642614914D18007CD136 /* NSFileManager+ZWExtensions.m */; };
+		EE8F377F150067E000274C48 /* NSIndexPath+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642814914D18007CD136 /* NSIndexPath+ZWExtensions.m */; };
+		EE8F3780150067E000274C48 /* NSInvocation+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642A14914D18007CD136 /* NSInvocation+ZWExtensions.m */; };
+		EE8F3781150067E000274C48 /* NSManagedObject+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642C14914D18007CD136 /* NSManagedObject+ZWExtensions.m */; };
+		EE8F3782150067E000274C48 /* NSManagedObjectContext+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642E14914D18007CD136 /* NSManagedObjectContext+ZWExtensions.m */; };
+		EE8F3783150067E000274C48 /* NSMutableDictionary+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643014914D18007CD136 /* NSMutableDictionary+ZWExtensions.m */; };
+		EE8F3784150067E000274C48 /* NSNotificationCenter+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643214914D18007CD136 /* NSNotificationCenter+ZWExtensions.m */; };
+		EE8F3785150067E000274C48 /* NSObject+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643414914D18007CD136 /* NSObject+ZWExtensions.m */; };
+		EE8F3786150067E000274C48 /* NSOperation+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643614914D18007CD136 /* NSOperation+ZWExtensions.m */; };
+		EE8F3787150067E000274C48 /* NSOperationQueue+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643814914D18007CD136 /* NSOperationQueue+ZWExtensions.m */; };
+		EE8F3788150067E000274C48 /* NSPersistentStore+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643A14914D18007CD136 /* NSPersistentStore+ZWExtensions.m */; };
+		EE8F3789150067E000274C48 /* NSPersistentStoreCoordinator+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643C14914D18007CD136 /* NSPersistentStoreCoordinator+ZWExtensions.m */; };
+		EE8F378A150067E000274C48 /* NSScanner+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643E14914D18007CD136 /* NSScanner+ZWExtensions.m */; };
+		EE8F378B150067E000274C48 /* NSSet+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98644014914D18007CD136 /* NSSet+ZWExtensions.m */; };
+		EE8F378C150067E000274C48 /* NSString+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98644214914D18007CD136 /* NSString+ZWExtensions.m */; };
+		EE8F378D150067E000274C48 /* NSUserDefaults+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98644414914D18007CD136 /* NSUserDefaults+ZWExtensions.m */; };
+		EE8F378E150067E000274C48 /* ObjC+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98644614914D18007CD136 /* ObjC+ZWExtensions.m */; };
+		EE8F378F150067E400274C48 /* sha1.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98644814914D18007CD136 /* sha1.m */; };
+		EE8F3790150067E400274C48 /* hmac.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863FA14914D18007CD136 /* hmac.m */; };
+		EE8F3791150067E400274C48 /* md5.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863FE14914D18007CD136 /* md5.m */; };
+		EE8F3792150067E400274C48 /* ZWB64.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863BF14914D18007CD136 /* ZWB64.m */; };
+		EE8F3793150067E400274C48 /* ZWHMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863D814914D18007CD136 /* ZWHMAC.m */; };
+		EE8F3794150067E400274C48 /* ZWMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863DE14914D18007CD136 /* ZWMD5.m */; };
+		EE8F3795150067E400274C48 /* ZWSHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863EA14914D18007CD136 /* ZWSHA1.m */; };
+		EE8F3796150067EC00274C48 /* ZWCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863C114914D18007CD136 /* ZWCacheManager.m */; };
+		EE8F3797150067EC00274C48 /* ZWURLCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863EE14914D18007CD136 /* ZWURLCacheManager.m */; };
+		EE8F3798150067EC00274C48 /* ZWValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863F214914D18007CD136 /* ZWValueTransformer.m */; };
+		EE8F3799150067EC00274C48 /* ZWCollectionHasMultipleValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863C314914D18007CD136 /* ZWCollectionHasMultipleValueTransformer.m */; };
+		EE8F379A150067EC00274C48 /* ZWCollectionHasSingleValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863C514914D18007CD136 /* ZWCollectionHasSingleValueTransformer.m */; };
+		EE8F379B150067EC00274C48 /* ZWCollectionIsEmptyValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863C714914D18007CD136 /* ZWCollectionIsEmptyValueTransformer.m */; };
+		EE8F379C150067EC00274C48 /* ZWCollectionIsNotEmptyValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863C914914D18007CD136 /* ZWCollectionIsNotEmptyValueTransformer.m */; };
+		EE8F379D150067EC00274C48 /* ZWStringFromNumberValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863EC14914D18007CD136 /* ZWStringFromNumberValueTransformer.m */; };
+		EE8F379E150067EC00274C48 /* ZWURLFromStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863F014914D18007CD136 /* ZWURLFromStringValueTransformer.m */; };
+		EE8F379F150067F600274C48 /* ZWWaitOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863F414914D18007CD136 /* ZWWaitOperation.m */; };
+		EE8F37A0150067F600274C48 /* ZWConcurrentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863CB14914D18007CD136 /* ZWConcurrentOperation.m */; };
+		EE8F37A1150067F600274C48 /* ZWMigrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863E014914D18007CD136 /* ZWMigrationManager.m */; };
+		EE8F37A2150067F600274C48 /* ZWMigrationRule.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863E214914D18007CD136 /* ZWMigrationRule.m */; };
+		EE8F37A3150067F600274C48 /* ZWMigrationRuleManyToOne.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863E414914D18007CD136 /* ZWMigrationRuleManyToOne.m */; };
+		EE8F37A4150067F600274C48 /* ZWMigrationRuleOneToMany.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863E614914D18007CD136 /* ZWMigrationRuleOneToMany.m */; };
+		EE8F37A5150067F600274C48 /* ZWMigrationRuleOneToOne.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863E814914D18007CD136 /* ZWMigrationRuleOneToOne.m */; };
+		EE8F37A6150067F600274C48 /* ZWCoreDataContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863CD14914D18007CD136 /* ZWCoreDataContainer.m */; };
+		EE8F37A7150067F600274C48 /* ZWManagedObjectArchiving.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863DC14914D18007CD136 /* ZWManagedObjectArchiving.m */; };
+		EE8F37A8150067F600274C48 /* ZWLocationMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863DA14914D18007CD136 /* ZWLocationMonitor.m */; };
+		EE8F37A9150067F600274C48 /* ZWBlockInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9864F314914DFB007CD136 /* ZWBlockInvocation.m */; };
+		EE8F37AA150067F600274C48 /* ZWGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9864F614914DFB007CD136 /* ZWGeometry.m */; };
+		EE8F37B2150067FF00274C48 /* ZWCoreKitConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863D214914D18007CD136 /* ZWCoreKitConstants.m */; };
+		EE8F37B3150067FF00274C48 /* ZWCoreKitMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863D414914D18007CD136 /* ZWCoreKitMacros.m */; };
+		EE8F37B4150067FF00274C48 /* ZWCoreKitTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863D614914D18007CD136 /* ZWCoreKitTypes.m */; };
+		EE8F37B51500681400274C48 /* ZWCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863CF14914D18007CD136 /* ZWCoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37B61500681400274C48 /* ZWCoreKitAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863D014914D18007CD136 /* ZWCoreKitAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37B71500681400274C48 /* ZWCoreKitConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863D114914D18007CD136 /* ZWCoreKitConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37B81500681400274C48 /* ZWCoreKitMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863D314914D18007CD136 /* ZWCoreKitMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37B91500681400274C48 /* ZWCoreKitTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863D514914D18007CD136 /* ZWCoreKitTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37BA1500681400274C48 /* CALayer+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863A614914D18007CD136 /* CALayer+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37BB1500681400274C48 /* CATiledLayer+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863A814914D18007CD136 /* CATiledLayer+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37BC1500681400274C48 /* CATransaction+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863AA14914D18007CD136 /* CATransaction+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37BD1500681400274C48 /* CGColor+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863AC14914D18007CD136 /* CGColor+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37BE1500681400274C48 /* CGColorSpace+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863AE14914D18007CD136 /* CGColorSpace+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37BF1500681400274C48 /* CGContext+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863B014914D18007CD136 /* CGContext+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37C01500681400274C48 /* CGImage+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863B214914D18007CD136 /* CGImage+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37C11500681400274C48 /* CGPath+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863B414914D18007CD136 /* CGPath+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37C21500681400274C48 /* CGPattern+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863B614914D18007CD136 /* CGPattern+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37C31500681400274C48 /* CGPoint+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863B814914D18007CD136 /* CGPoint+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37C41500681400274C48 /* CGRect+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863BA14914D18007CD136 /* CGRect+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37C51500681400274C48 /* CGSize+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863BC14914D18007CD136 /* CGSize+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37C61500681400274C48 /* CLLocation+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863F514914D18007CD136 /* CLLocation+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37C71500681400274C48 /* CoreLocation+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863F714914D18007CD136 /* CoreLocation+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37C81500681400274C48 /* NSArray+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98641514914D18007CD136 /* NSArray+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37C91500681400274C48 /* NSAutoreleasePool+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98641714914D18007CD136 /* NSAutoreleasePool+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37CA1500681400274C48 /* NSCoder+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98641914914D18007CD136 /* NSCoder+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37CB1500681400274C48 /* NSData+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98641B14914D18007CD136 /* NSData+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37CC1500681400274C48 /* NSDate+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98641D14914D18007CD136 /* NSDate+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37CD1500681400274C48 /* NSDictionary+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98641F14914D18007CD136 /* NSDictionary+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37CE1500681400274C48 /* NSEnumerator+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642114914D18007CD136 /* NSEnumerator+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37CF1500681400274C48 /* NSFetchRequest+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642314914D18007CD136 /* NSFetchRequest+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37D01500681400274C48 /* NSFileManager+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642514914D18007CD136 /* NSFileManager+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37D11500681400274C48 /* NSIndexPath+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642714914D18007CD136 /* NSIndexPath+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37D21500681400274C48 /* NSInvocation+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642914914D18007CD136 /* NSInvocation+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37D31500681400274C48 /* NSManagedObject+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642B14914D18007CD136 /* NSManagedObject+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37D41500681400274C48 /* NSManagedObjectContext+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642D14914D18007CD136 /* NSManagedObjectContext+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37D51500681400274C48 /* NSMutableDictionary+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642F14914D18007CD136 /* NSMutableDictionary+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37D61500681400274C48 /* NSNotificationCenter+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643114914D18007CD136 /* NSNotificationCenter+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37D71500681400274C48 /* NSObject+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643314914D18007CD136 /* NSObject+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37D81500681400274C48 /* NSOperation+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643514914D18007CD136 /* NSOperation+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37D91500681400274C48 /* NSOperationQueue+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643714914D18007CD136 /* NSOperationQueue+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37DA1500681400274C48 /* NSPersistentStore+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643914914D18007CD136 /* NSPersistentStore+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37DB1500681400274C48 /* NSPersistentStoreCoordinator+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643B14914D18007CD136 /* NSPersistentStoreCoordinator+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37DC1500681400274C48 /* NSScanner+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643D14914D18007CD136 /* NSScanner+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37DD1500681400274C48 /* NSSet+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643F14914D18007CD136 /* NSSet+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37DE1500681400274C48 /* NSString+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98644114914D18007CD136 /* NSString+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37DF1500681400274C48 /* NSUserDefaults+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98644314914D18007CD136 /* NSUserDefaults+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37E01500681400274C48 /* ObjC+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98644514914D18007CD136 /* ObjC+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37E41500681400274C48 /* ZWB64.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863BE14914D18007CD136 /* ZWB64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37E51500681400274C48 /* ZWHMAC.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863D714914D18007CD136 /* ZWHMAC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37E61500681400274C48 /* ZWMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863DD14914D18007CD136 /* ZWMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37E71500681400274C48 /* ZWSHA1.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863E914914D18007CD136 /* ZWSHA1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37E81500681400274C48 /* ZWCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863C014914D18007CD136 /* ZWCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37E91500681400274C48 /* ZWURLCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863ED14914D18007CD136 /* ZWURLCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37EA1500681400274C48 /* ZWValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863F114914D18007CD136 /* ZWValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37EB1500681400274C48 /* ZWCollectionHasMultipleValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863C214914D18007CD136 /* ZWCollectionHasMultipleValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37EC1500681400274C48 /* ZWCollectionHasSingleValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863C414914D18007CD136 /* ZWCollectionHasSingleValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37ED1500681400274C48 /* ZWCollectionIsEmptyValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863C614914D18007CD136 /* ZWCollectionIsEmptyValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37EE1500681400274C48 /* ZWCollectionIsNotEmptyValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863C814914D18007CD136 /* ZWCollectionIsNotEmptyValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37EF1500681400274C48 /* ZWStringFromNumberValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863EB14914D18007CD136 /* ZWStringFromNumberValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37F01500681400274C48 /* ZWURLFromStringValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863EF14914D18007CD136 /* ZWURLFromStringValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37F11500681400274C48 /* ZWWaitOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863F314914D18007CD136 /* ZWWaitOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37F21500681400274C48 /* ZWConcurrentOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863CA14914D18007CD136 /* ZWConcurrentOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37F31500681400274C48 /* ZWMigrationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863DF14914D18007CD136 /* ZWMigrationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37F41500681400274C48 /* ZWMigrationRule.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863E114914D18007CD136 /* ZWMigrationRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37F51500681400274C48 /* ZWMigrationRuleManyToOne.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863E314914D18007CD136 /* ZWMigrationRuleManyToOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37F61500681400274C48 /* ZWMigrationRuleOneToMany.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863E514914D18007CD136 /* ZWMigrationRuleOneToMany.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37F71500681400274C48 /* ZWMigrationRuleOneToOne.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863E714914D18007CD136 /* ZWMigrationRuleOneToOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37F81500681400274C48 /* ZWCoreDataContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863CC14914D18007CD136 /* ZWCoreDataContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37F91500681400274C48 /* ZWManagedObjectArchiving.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863DB14914D18007CD136 /* ZWManagedObjectArchiving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37FA1500681400274C48 /* ZWLocationMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863D914914D18007CD136 /* ZWLocationMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37FB1500681400274C48 /* ZWBlockInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9864F214914DFB007CD136 /* ZWBlockInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37FC1500681400274C48 /* ZWEasingEquations.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9864F414914DFB007CD136 /* ZWEasingEquations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F37FD1500681400274C48 /* ZWGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9864F514914DFB007CD136 /* ZWGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8F38061500683B00274C48 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98644714914D18007CD136 /* sha1.h */; };
+		EE8F38071500683B00274C48 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863F914914D18007CD136 /* hmac.h */; };
+		EE8F38081500683B00274C48 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863FD14914D18007CD136 /* md5.h */; };
+		EE8F38161501756C00274C48 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8F38091501754500274C48 /* Accelerate.framework */; };
+		EE8F38171501756C00274C48 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8F380A1501754500274C48 /* AVFoundation.framework */; };
+		EE8F38181501756C00274C48 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8F380B1501754500274C48 /* CoreData.framework */; };
+		EE8F38191501756C00274C48 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8F380C1501754500274C48 /* CoreLocation.framework */; };
+		EE8F381A1501756C00274C48 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8F380D1501754500274C48 /* Quartz.framework */; };
+		EE8F381B1501756C00274C48 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8F380E1501754500274C48 /* QuartzCore.framework */; };
+		EE8F381C1501756C00274C48 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8F374A1500672E00274C48 /* Cocoa.framework */; };
+		EE8F381E1501758900274C48 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8F381D1501758900274C48 /* SystemConfiguration.framework */; };
+		EE8F381F150175C600274C48 /* ZWReachabilityMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9864FA14914DFB007CD136 /* ZWReachabilityMonitor.m */; };
+		EE8F3820150175C800274C48 /* ZWReachabilityMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9864F914914DFB007CD136 /* ZWReachabilityMonitor.h */; };
+		EE98644914914D18007CD136 /* CALayer+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863A614914D18007CD136 /* CALayer+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98644A14914D18007CD136 /* CALayer+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863A714914D18007CD136 /* CALayer+ZWExtensions.m */; };
+		EE98644B14914D18007CD136 /* CATiledLayer+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863A814914D18007CD136 /* CATiledLayer+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98644C14914D18007CD136 /* CATiledLayer+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863A914914D18007CD136 /* CATiledLayer+ZWExtensions.m */; };
+		EE98644D14914D18007CD136 /* CATransaction+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863AA14914D18007CD136 /* CATransaction+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98644E14914D18007CD136 /* CATransaction+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863AB14914D18007CD136 /* CATransaction+ZWExtensions.m */; };
+		EE98644F14914D18007CD136 /* CGColor+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863AC14914D18007CD136 /* CGColor+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98645014914D18007CD136 /* CGColor+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863AD14914D18007CD136 /* CGColor+ZWExtensions.m */; };
+		EE98645114914D18007CD136 /* CGColorSpace+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863AE14914D18007CD136 /* CGColorSpace+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98645214914D18007CD136 /* CGColorSpace+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863AF14914D18007CD136 /* CGColorSpace+ZWExtensions.m */; };
+		EE98645314914D18007CD136 /* CGContext+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863B014914D18007CD136 /* CGContext+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98645414914D18007CD136 /* CGContext+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863B114914D18007CD136 /* CGContext+ZWExtensions.m */; };
+		EE98645514914D18007CD136 /* CGImage+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863B214914D18007CD136 /* CGImage+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98645614914D18007CD136 /* CGImage+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863B314914D18007CD136 /* CGImage+ZWExtensions.m */; };
+		EE98645714914D18007CD136 /* CGPath+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863B414914D18007CD136 /* CGPath+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98645814914D18007CD136 /* CGPath+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863B514914D18007CD136 /* CGPath+ZWExtensions.m */; };
+		EE98645914914D18007CD136 /* CGPattern+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863B614914D18007CD136 /* CGPattern+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98645A14914D18007CD136 /* CGPattern+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863B714914D18007CD136 /* CGPattern+ZWExtensions.m */; };
+		EE98645B14914D18007CD136 /* CGPoint+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863B814914D18007CD136 /* CGPoint+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98645C14914D18007CD136 /* CGPoint+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863B914914D18007CD136 /* CGPoint+ZWExtensions.m */; };
+		EE98645D14914D18007CD136 /* CGRect+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863BA14914D18007CD136 /* CGRect+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98645E14914D18007CD136 /* CGRect+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863BB14914D18007CD136 /* CGRect+ZWExtensions.m */; };
+		EE98645F14914D18007CD136 /* CGSize+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863BC14914D18007CD136 /* CGSize+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98646014914D18007CD136 /* CGSize+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863BD14914D18007CD136 /* CGSize+ZWExtensions.m */; };
+		EE98646114914D18007CD136 /* ZWB64.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863BE14914D18007CD136 /* ZWB64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98646214914D18007CD136 /* ZWB64.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863BF14914D18007CD136 /* ZWB64.m */; };
+		EE98646314914D18007CD136 /* ZWCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863C014914D18007CD136 /* ZWCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98646414914D18007CD136 /* ZWCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863C114914D18007CD136 /* ZWCacheManager.m */; };
+		EE98646514914D18007CD136 /* ZWCollectionHasMultipleValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863C214914D18007CD136 /* ZWCollectionHasMultipleValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98646614914D18007CD136 /* ZWCollectionHasMultipleValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863C314914D18007CD136 /* ZWCollectionHasMultipleValueTransformer.m */; };
+		EE98646714914D18007CD136 /* ZWCollectionHasSingleValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863C414914D18007CD136 /* ZWCollectionHasSingleValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98646814914D18007CD136 /* ZWCollectionHasSingleValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863C514914D18007CD136 /* ZWCollectionHasSingleValueTransformer.m */; };
+		EE98646914914D18007CD136 /* ZWCollectionIsEmptyValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863C614914D18007CD136 /* ZWCollectionIsEmptyValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98646A14914D18007CD136 /* ZWCollectionIsEmptyValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863C714914D18007CD136 /* ZWCollectionIsEmptyValueTransformer.m */; };
+		EE98646B14914D18007CD136 /* ZWCollectionIsNotEmptyValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863C814914D18007CD136 /* ZWCollectionIsNotEmptyValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98646C14914D18007CD136 /* ZWCollectionIsNotEmptyValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863C914914D18007CD136 /* ZWCollectionIsNotEmptyValueTransformer.m */; };
+		EE98646D14914D18007CD136 /* ZWConcurrentOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863CA14914D18007CD136 /* ZWConcurrentOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98646E14914D18007CD136 /* ZWConcurrentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863CB14914D18007CD136 /* ZWConcurrentOperation.m */; };
+		EE98646F14914D18007CD136 /* ZWCoreDataContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863CC14914D18007CD136 /* ZWCoreDataContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98647014914D18007CD136 /* ZWCoreDataContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863CD14914D18007CD136 /* ZWCoreDataContainer.m */; };
+		EE98647214914D18007CD136 /* ZWCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863CF14914D18007CD136 /* ZWCoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98647314914D18007CD136 /* ZWCoreKitAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863D014914D18007CD136 /* ZWCoreKitAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98647414914D18007CD136 /* ZWCoreKitConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863D114914D18007CD136 /* ZWCoreKitConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98647514914D18007CD136 /* ZWCoreKitConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863D214914D18007CD136 /* ZWCoreKitConstants.m */; };
+		EE98647614914D18007CD136 /* ZWCoreKitMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863D314914D18007CD136 /* ZWCoreKitMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98647714914D18007CD136 /* ZWCoreKitMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863D414914D18007CD136 /* ZWCoreKitMacros.m */; };
+		EE98647814914D18007CD136 /* ZWCoreKitTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863D514914D18007CD136 /* ZWCoreKitTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98647914914D18007CD136 /* ZWCoreKitTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863D614914D18007CD136 /* ZWCoreKitTypes.m */; };
+		EE98647A14914D18007CD136 /* ZWHMAC.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863D714914D18007CD136 /* ZWHMAC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98647B14914D18007CD136 /* ZWHMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863D814914D18007CD136 /* ZWHMAC.m */; };
+		EE98647C14914D18007CD136 /* ZWLocationMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863D914914D18007CD136 /* ZWLocationMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98647D14914D18007CD136 /* ZWLocationMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863DA14914D18007CD136 /* ZWLocationMonitor.m */; };
+		EE98647E14914D18007CD136 /* ZWManagedObjectArchiving.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863DB14914D18007CD136 /* ZWManagedObjectArchiving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98647F14914D18007CD136 /* ZWManagedObjectArchiving.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863DC14914D18007CD136 /* ZWManagedObjectArchiving.m */; };
+		EE98648014914D18007CD136 /* ZWMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863DD14914D18007CD136 /* ZWMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98648114914D18007CD136 /* ZWMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863DE14914D18007CD136 /* ZWMD5.m */; };
+		EE98648214914D18007CD136 /* ZWMigrationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863DF14914D18007CD136 /* ZWMigrationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98648314914D18007CD136 /* ZWMigrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863E014914D18007CD136 /* ZWMigrationManager.m */; };
+		EE98648414914D18007CD136 /* ZWMigrationRule.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863E114914D18007CD136 /* ZWMigrationRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98648514914D18007CD136 /* ZWMigrationRule.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863E214914D18007CD136 /* ZWMigrationRule.m */; };
+		EE98648614914D18007CD136 /* ZWMigrationRuleManyToOne.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863E314914D18007CD136 /* ZWMigrationRuleManyToOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98648714914D18007CD136 /* ZWMigrationRuleManyToOne.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863E414914D18007CD136 /* ZWMigrationRuleManyToOne.m */; };
+		EE98648814914D18007CD136 /* ZWMigrationRuleOneToMany.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863E514914D18007CD136 /* ZWMigrationRuleOneToMany.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98648914914D18007CD136 /* ZWMigrationRuleOneToMany.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863E614914D18007CD136 /* ZWMigrationRuleOneToMany.m */; };
+		EE98648A14914D18007CD136 /* ZWMigrationRuleOneToOne.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863E714914D18007CD136 /* ZWMigrationRuleOneToOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98648B14914D18007CD136 /* ZWMigrationRuleOneToOne.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863E814914D18007CD136 /* ZWMigrationRuleOneToOne.m */; };
+		EE98648C14914D18007CD136 /* ZWSHA1.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863E914914D18007CD136 /* ZWSHA1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98648D14914D18007CD136 /* ZWSHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863EA14914D18007CD136 /* ZWSHA1.m */; };
+		EE98648E14914D18007CD136 /* ZWStringFromNumberValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863EB14914D18007CD136 /* ZWStringFromNumberValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98648F14914D18007CD136 /* ZWStringFromNumberValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863EC14914D18007CD136 /* ZWStringFromNumberValueTransformer.m */; };
+		EE98649014914D18007CD136 /* ZWURLCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863ED14914D18007CD136 /* ZWURLCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98649114914D18007CD136 /* ZWURLCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863EE14914D18007CD136 /* ZWURLCacheManager.m */; };
+		EE98649214914D18007CD136 /* ZWURLFromStringValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863EF14914D18007CD136 /* ZWURLFromStringValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98649314914D18007CD136 /* ZWURLFromStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863F014914D18007CD136 /* ZWURLFromStringValueTransformer.m */; };
+		EE98649414914D18007CD136 /* ZWValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863F114914D18007CD136 /* ZWValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98649514914D18007CD136 /* ZWValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863F214914D18007CD136 /* ZWValueTransformer.m */; };
+		EE98649614914D18007CD136 /* ZWWaitOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863F314914D18007CD136 /* ZWWaitOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98649714914D18007CD136 /* ZWWaitOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863F414914D18007CD136 /* ZWWaitOperation.m */; };
+		EE98649814914D18007CD136 /* CLLocation+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863F514914D18007CD136 /* CLLocation+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98649914914D18007CD136 /* CLLocation+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863F614914D18007CD136 /* CLLocation+ZWExtensions.m */; };
+		EE98649A14914D18007CD136 /* CoreLocation+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863F714914D18007CD136 /* CoreLocation+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98649B14914D18007CD136 /* CoreLocation+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863F814914D18007CD136 /* CoreLocation+ZWExtensions.m */; };
+		EE98649C14914D18007CD136 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863F914914D18007CD136 /* hmac.h */; };
+		EE98649D14914D18007CD136 /* hmac.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863FA14914D18007CD136 /* hmac.m */; };
+		EE9864A014914D18007CD136 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863FD14914D18007CD136 /* md5.h */; };
+		EE9864A114914D18007CD136 /* md5.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863FE14914D18007CD136 /* md5.m */; };
+		EE9864B614914D18007CD136 /* NSArray+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98641514914D18007CD136 /* NSArray+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864B714914D18007CD136 /* NSArray+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98641614914D18007CD136 /* NSArray+ZWExtensions.m */; };
+		EE9864B814914D18007CD136 /* NSAutoreleasePool+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98641714914D18007CD136 /* NSAutoreleasePool+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864B914914D18007CD136 /* NSAutoreleasePool+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98641814914D18007CD136 /* NSAutoreleasePool+ZWExtensions.m */; };
+		EE9864BA14914D18007CD136 /* NSCoder+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98641914914D18007CD136 /* NSCoder+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864BB14914D18007CD136 /* NSCoder+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98641A14914D18007CD136 /* NSCoder+ZWExtensions.m */; };
+		EE9864BC14914D18007CD136 /* NSData+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98641B14914D18007CD136 /* NSData+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864BD14914D18007CD136 /* NSData+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98641C14914D18007CD136 /* NSData+ZWExtensions.m */; };
+		EE9864BE14914D18007CD136 /* NSDate+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98641D14914D18007CD136 /* NSDate+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864BF14914D18007CD136 /* NSDate+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98641E14914D18007CD136 /* NSDate+ZWExtensions.m */; };
+		EE9864C014914D18007CD136 /* NSDictionary+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98641F14914D18007CD136 /* NSDictionary+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864C114914D18007CD136 /* NSDictionary+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642014914D18007CD136 /* NSDictionary+ZWExtensions.m */; };
+		EE9864C214914D18007CD136 /* NSEnumerator+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642114914D18007CD136 /* NSEnumerator+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864C314914D18007CD136 /* NSEnumerator+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642214914D18007CD136 /* NSEnumerator+ZWExtensions.m */; };
+		EE9864C414914D18007CD136 /* NSFetchRequest+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642314914D18007CD136 /* NSFetchRequest+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864C514914D18007CD136 /* NSFetchRequest+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642414914D18007CD136 /* NSFetchRequest+ZWExtensions.m */; };
+		EE9864C614914D18007CD136 /* NSFileManager+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642514914D18007CD136 /* NSFileManager+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864C714914D18007CD136 /* NSFileManager+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642614914D18007CD136 /* NSFileManager+ZWExtensions.m */; };
+		EE9864C814914D18007CD136 /* NSIndexPath+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642714914D18007CD136 /* NSIndexPath+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864C914914D18007CD136 /* NSIndexPath+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642814914D18007CD136 /* NSIndexPath+ZWExtensions.m */; };
+		EE9864CA14914D18007CD136 /* NSInvocation+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642914914D18007CD136 /* NSInvocation+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864CB14914D18007CD136 /* NSInvocation+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642A14914D18007CD136 /* NSInvocation+ZWExtensions.m */; };
+		EE9864CC14914D18007CD136 /* NSManagedObject+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642B14914D18007CD136 /* NSManagedObject+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864CD14914D18007CD136 /* NSManagedObject+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642C14914D18007CD136 /* NSManagedObject+ZWExtensions.m */; };
+		EE9864CE14914D18007CD136 /* NSManagedObjectContext+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642D14914D18007CD136 /* NSManagedObjectContext+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864CF14914D18007CD136 /* NSManagedObjectContext+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98642E14914D18007CD136 /* NSManagedObjectContext+ZWExtensions.m */; };
+		EE9864D014914D18007CD136 /* NSMutableDictionary+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98642F14914D18007CD136 /* NSMutableDictionary+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864D114914D18007CD136 /* NSMutableDictionary+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643014914D18007CD136 /* NSMutableDictionary+ZWExtensions.m */; };
+		EE9864D214914D18007CD136 /* NSNotificationCenter+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643114914D18007CD136 /* NSNotificationCenter+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864D314914D18007CD136 /* NSNotificationCenter+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643214914D18007CD136 /* NSNotificationCenter+ZWExtensions.m */; };
+		EE9864D414914D18007CD136 /* NSObject+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643314914D18007CD136 /* NSObject+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864D514914D18007CD136 /* NSObject+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643414914D18007CD136 /* NSObject+ZWExtensions.m */; };
+		EE9864D614914D18007CD136 /* NSOperation+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643514914D18007CD136 /* NSOperation+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864D714914D18007CD136 /* NSOperation+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643614914D18007CD136 /* NSOperation+ZWExtensions.m */; };
+		EE9864D814914D18007CD136 /* NSOperationQueue+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643714914D18007CD136 /* NSOperationQueue+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864D914914D18007CD136 /* NSOperationQueue+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643814914D18007CD136 /* NSOperationQueue+ZWExtensions.m */; };
+		EE9864DA14914D18007CD136 /* NSPersistentStore+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643914914D18007CD136 /* NSPersistentStore+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864DB14914D18007CD136 /* NSPersistentStore+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643A14914D18007CD136 /* NSPersistentStore+ZWExtensions.m */; };
+		EE9864DC14914D18007CD136 /* NSPersistentStoreCoordinator+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643B14914D18007CD136 /* NSPersistentStoreCoordinator+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864DD14914D18007CD136 /* NSPersistentStoreCoordinator+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643C14914D18007CD136 /* NSPersistentStoreCoordinator+ZWExtensions.m */; };
+		EE9864DE14914D18007CD136 /* NSScanner+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643D14914D18007CD136 /* NSScanner+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864DF14914D18007CD136 /* NSScanner+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98643E14914D18007CD136 /* NSScanner+ZWExtensions.m */; };
+		EE9864E014914D18007CD136 /* NSSet+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98643F14914D18007CD136 /* NSSet+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864E114914D18007CD136 /* NSSet+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98644014914D18007CD136 /* NSSet+ZWExtensions.m */; };
+		EE9864E214914D18007CD136 /* NSString+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98644114914D18007CD136 /* NSString+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864E314914D18007CD136 /* NSString+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98644214914D18007CD136 /* NSString+ZWExtensions.m */; };
+		EE9864E414914D18007CD136 /* NSUserDefaults+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98644314914D18007CD136 /* NSUserDefaults+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864E514914D18007CD136 /* NSUserDefaults+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98644414914D18007CD136 /* NSUserDefaults+ZWExtensions.m */; };
+		EE9864E614914D18007CD136 /* ObjC+ZWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98644514914D18007CD136 /* ObjC+ZWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9864E714914D18007CD136 /* ObjC+ZWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98644614914D18007CD136 /* ObjC+ZWExtensions.m */; };
+		EE9864E814914D18007CD136 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98644714914D18007CD136 /* sha1.h */; };
+		EE9864E914914D18007CD136 /* sha1.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98644814914D18007CD136 /* sha1.m */; };
+		EE98650614914DFB007CD136 /* ZWBlockInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9864F214914DFB007CD136 /* ZWBlockInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98650714914DFB007CD136 /* ZWBlockInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9864F314914DFB007CD136 /* ZWBlockInvocation.m */; };
+		EE98650814914DFB007CD136 /* ZWEasingEquations.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9864F414914DFB007CD136 /* ZWEasingEquations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98650914914DFB007CD136 /* ZWGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9864F514914DFB007CD136 /* ZWGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98650A14914DFB007CD136 /* ZWGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9864F614914DFB007CD136 /* ZWGeometry.m */; };
+		EE98650D14914DFB007CD136 /* ZWReachabilityMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9864F914914DFB007CD136 /* ZWReachabilityMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98650E14914DFB007CD136 /* ZWReachabilityMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9864FA14914DFB007CD136 /* ZWReachabilityMonitor.m */; };
+		EECE5FE9145622BE00585309 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE158C9013DD7601003C5FCC /* CoreImage.framework */; };
+		EECE5FEA145622BE00585309 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E491D13D670B900B5A9DD /* Accelerate.framework */; };
+		EECE5FEB145622BE00585309 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E491E13D670B900B5A9DD /* AVFoundation.framework */; };
+		EECE5FEC145622BE00585309 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E491F13D670B900B5A9DD /* CFNetwork.framework */; };
+		EECE5FED145622BE00585309 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E492013D670B900B5A9DD /* CoreAudio.framework */; };
+		EECE5FEE145622BE00585309 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E492113D670B900B5A9DD /* CoreData.framework */; };
+		EECE5FEF145622BE00585309 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E492213D670B900B5A9DD /* CoreFoundation.framework */; };
+		EECE5FF0145622BE00585309 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E492313D670B900B5A9DD /* CoreGraphics.framework */; };
+		EECE5FF2145622BE00585309 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E492513D670B900B5A9DD /* CoreLocation.framework */; };
+		EECE5FF3145622BE00585309 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E492613D670B900B5A9DD /* CoreMotion.framework */; };
+		EECE5FF4145622BE00585309 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E492713D670B900B5A9DD /* CoreTelephony.framework */; };
+		EECE5FF5145622BE00585309 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E492813D670B900B5A9DD /* CoreText.framework */; };
+		EECE5FF6145622BE00585309 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E492913D670B900B5A9DD /* CoreVideo.framework */; };
+		EECE5FF7145622BE00585309 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E492A13D670B900B5A9DD /* EventKit.framework */; };
+		EECE5FF8145622BE00585309 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E492B13D670B900B5A9DD /* EventKitUI.framework */; };
+		EECE5FF9145622BE00585309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E492C13D670B900B5A9DD /* Foundation.framework */; };
+		EECE5FFA145622BE00585309 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E492D13D670B900B5A9DD /* GameKit.framework */; };
+		EECE5FFB145622BE00585309 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E492E13D670B900B5A9DD /* iAd.framework */; };
+		EECE5FFC145622BE00585309 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E492F13D670B900B5A9DD /* ImageIO.framework */; };
+		EECE5FFD145622BE00585309 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E493013D670B900B5A9DD /* MapKit.framework */; };
+		EECE5FFE145622BE00585309 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E493113D670B900B5A9DD /* MediaPlayer.framework */; };
+		EECE5FFF145622BE00585309 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E493213D670B900B5A9DD /* MessageUI.framework */; };
+		EECE6000145622BE00585309 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E493313D670B900B5A9DD /* QuartzCore.framework */; };
+		EECE6001145622BE00585309 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E493413D670B900B5A9DD /* Security.framework */; };
+		EECE6002145622BE00585309 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E493513D670B900B5A9DD /* StoreKit.framework */; };
+		EECE6003145622BE00585309 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E493613D670B900B5A9DD /* SystemConfiguration.framework */; };
+		EECE6004145622BE00585309 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E493713D670B900B5A9DD /* UIKit.framework */; };
+		EEDC3A2A155FFB7000678E17 /* ZWWeakRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDC3A24155FFB7000678E17 /* ZWWeakRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEDC3A2B155FFB7000678E17 /* ZWWeakRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDC3A24155FFB7000678E17 /* ZWWeakRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEDC3A2C155FFB7000678E17 /* ZWWeakRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDC3A25155FFB7000678E17 /* ZWWeakRuntime.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EEDC3A2D155FFB7000678E17 /* ZWWeakRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDC3A25155FFB7000678E17 /* ZWWeakRuntime.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EEDC3A2E155FFB7000678E17 /* ZWWeakRuntimeClang.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDC3A26155FFB7000678E17 /* ZWWeakRuntimeClang.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEDC3A2F155FFB7000678E17 /* ZWWeakRuntimeClang.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDC3A26155FFB7000678E17 /* ZWWeakRuntimeClang.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEDC3A30155FFB7000678E17 /* ZWWeakRuntimeClang.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDC3A27155FFB7000678E17 /* ZWWeakRuntimeClang.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EEDC3A31155FFB7000678E17 /* ZWWeakRuntimeClang.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDC3A27155FFB7000678E17 /* ZWWeakRuntimeClang.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EEDC3A32155FFB7000678E17 /* ZWWeakRuntimeProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDC3A28155FFB7000678E17 /* ZWWeakRuntimeProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEDC3A33155FFB7000678E17 /* ZWWeakRuntimeProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDC3A28155FFB7000678E17 /* ZWWeakRuntimeProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEDC3A34155FFB7000678E17 /* ZWWeakRuntimeProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDC3A29155FFB7000678E17 /* ZWWeakRuntimeProxy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EEDC3A35155FFB7000678E17 /* ZWWeakRuntimeProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDC3A29155FFB7000678E17 /* ZWWeakRuntimeProxy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE158C9013DD7601003C5FCC /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E491D13D670B900B5A9DD /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E491E13D670B900B5A9DD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E491F13D670B900B5A9DD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492013D670B900B5A9DD /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492113D670B900B5A9DD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492213D670B900B5A9DD /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492313D670B900B5A9DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492413D670B900B5A9DD /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492513D670B900B5A9DD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492613D670B900B5A9DD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492713D670B900B5A9DD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492813D670B900B5A9DD /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492913D670B900B5A9DD /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492A13D670B900B5A9DD /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492B13D670B900B5A9DD /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/EventKitUI.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492C13D670B900B5A9DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492D13D670B900B5A9DD /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/GameKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492E13D670B900B5A9DD /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/iAd.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E492F13D670B900B5A9DD /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E493013D670B900B5A9DD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E493113D670B900B5A9DD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E493213D670B900B5A9DD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E493313D670B900B5A9DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E493413D670B900B5A9DD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E493513D670B900B5A9DD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E493613D670B900B5A9DD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E493713D670B900B5A9DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE69E312145620C50042E1B3 /* libZWCoreKit-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libZWCoreKit-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8F374A1500672E00274C48 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EE8F374D1500672E00274C48 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EE8F374E1500672E00274C48 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EE8F374F1500672E00274C48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE8F375D1500674C00274C48 /* libZWCoreKit-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libZWCoreKit-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8F38091501754500274C48 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		EE8F380A1501754500274C48 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE8F380B1501754500274C48 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		EE8F380C1501754500274C48 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		EE8F380D1501754500274C48 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Quartz.framework; sourceTree = DEVELOPER_DIR; };
+		EE8F380E1501754500274C48 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		EE8F381D1501758900274C48 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		EE9863A614914D18007CD136 /* CALayer+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE9863A714914D18007CD136 /* CALayer+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE9863A814914D18007CD136 /* CATiledLayer+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATiledLayer+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE9863A914914D18007CD136 /* CATiledLayer+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATiledLayer+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE9863AA14914D18007CD136 /* CATransaction+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATransaction+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE9863AB14914D18007CD136 /* CATransaction+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATransaction+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE9863AC14914D18007CD136 /* CGColor+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGColor+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE9863AD14914D18007CD136 /* CGColor+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGColor+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE9863AE14914D18007CD136 /* CGColorSpace+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGColorSpace+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE9863AF14914D18007CD136 /* CGColorSpace+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGColorSpace+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE9863B014914D18007CD136 /* CGContext+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGContext+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE9863B114914D18007CD136 /* CGContext+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGContext+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE9863B214914D18007CD136 /* CGImage+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGImage+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE9863B314914D18007CD136 /* CGImage+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGImage+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE9863B414914D18007CD136 /* CGPath+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGPath+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE9863B514914D18007CD136 /* CGPath+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGPath+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE9863B614914D18007CD136 /* CGPattern+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGPattern+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE9863B714914D18007CD136 /* CGPattern+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGPattern+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE9863B814914D18007CD136 /* CGPoint+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGPoint+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE9863B914914D18007CD136 /* CGPoint+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGPoint+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE9863BA14914D18007CD136 /* CGRect+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGRect+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE9863BB14914D18007CD136 /* CGRect+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGRect+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE9863BC14914D18007CD136 /* CGSize+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGSize+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE9863BD14914D18007CD136 /* CGSize+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGSize+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE9863BE14914D18007CD136 /* ZWB64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWB64.h; sourceTree = "<group>"; };
+		EE9863BF14914D18007CD136 /* ZWB64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWB64.m; sourceTree = "<group>"; };
+		EE9863C014914D18007CD136 /* ZWCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCacheManager.h; sourceTree = "<group>"; };
+		EE9863C114914D18007CD136 /* ZWCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCacheManager.m; sourceTree = "<group>"; };
+		EE9863C214914D18007CD136 /* ZWCollectionHasMultipleValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCollectionHasMultipleValueTransformer.h; sourceTree = "<group>"; };
+		EE9863C314914D18007CD136 /* ZWCollectionHasMultipleValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCollectionHasMultipleValueTransformer.m; sourceTree = "<group>"; };
+		EE9863C414914D18007CD136 /* ZWCollectionHasSingleValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCollectionHasSingleValueTransformer.h; sourceTree = "<group>"; };
+		EE9863C514914D18007CD136 /* ZWCollectionHasSingleValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCollectionHasSingleValueTransformer.m; sourceTree = "<group>"; };
+		EE9863C614914D18007CD136 /* ZWCollectionIsEmptyValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCollectionIsEmptyValueTransformer.h; sourceTree = "<group>"; };
+		EE9863C714914D18007CD136 /* ZWCollectionIsEmptyValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCollectionIsEmptyValueTransformer.m; sourceTree = "<group>"; };
+		EE9863C814914D18007CD136 /* ZWCollectionIsNotEmptyValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCollectionIsNotEmptyValueTransformer.h; sourceTree = "<group>"; };
+		EE9863C914914D18007CD136 /* ZWCollectionIsNotEmptyValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCollectionIsNotEmptyValueTransformer.m; sourceTree = "<group>"; };
+		EE9863CA14914D18007CD136 /* ZWConcurrentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWConcurrentOperation.h; sourceTree = "<group>"; };
+		EE9863CB14914D18007CD136 /* ZWConcurrentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWConcurrentOperation.m; sourceTree = "<group>"; };
+		EE9863CC14914D18007CD136 /* ZWCoreDataContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCoreDataContainer.h; sourceTree = "<group>"; };
+		EE9863CD14914D18007CD136 /* ZWCoreDataContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCoreDataContainer.m; sourceTree = "<group>"; };
+		EE9863CE14914D18007CD136 /* ZWCoreKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZWCoreKit-Prefix.pch"; sourceTree = "<group>"; };
+		EE9863CF14914D18007CD136 /* ZWCoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCoreKit.h; sourceTree = "<group>"; };
+		EE9863D014914D18007CD136 /* ZWCoreKitAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCoreKitAvailability.h; sourceTree = "<group>"; };
+		EE9863D114914D18007CD136 /* ZWCoreKitConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCoreKitConstants.h; sourceTree = "<group>"; };
+		EE9863D214914D18007CD136 /* ZWCoreKitConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCoreKitConstants.m; sourceTree = "<group>"; };
+		EE9863D314914D18007CD136 /* ZWCoreKitMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCoreKitMacros.h; sourceTree = "<group>"; };
+		EE9863D414914D18007CD136 /* ZWCoreKitMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCoreKitMacros.m; sourceTree = "<group>"; };
+		EE9863D514914D18007CD136 /* ZWCoreKitTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCoreKitTypes.h; sourceTree = "<group>"; };
+		EE9863D614914D18007CD136 /* ZWCoreKitTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCoreKitTypes.m; sourceTree = "<group>"; };
+		EE9863D714914D18007CD136 /* ZWHMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWHMAC.h; sourceTree = "<group>"; };
+		EE9863D814914D18007CD136 /* ZWHMAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWHMAC.m; sourceTree = "<group>"; };
+		EE9863D914914D18007CD136 /* ZWLocationMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWLocationMonitor.h; sourceTree = "<group>"; };
+		EE9863DA14914D18007CD136 /* ZWLocationMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWLocationMonitor.m; sourceTree = "<group>"; };
+		EE9863DB14914D18007CD136 /* ZWManagedObjectArchiving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWManagedObjectArchiving.h; sourceTree = "<group>"; };
+		EE9863DC14914D18007CD136 /* ZWManagedObjectArchiving.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWManagedObjectArchiving.m; sourceTree = "<group>"; };
+		EE9863DD14914D18007CD136 /* ZWMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMD5.h; sourceTree = "<group>"; };
+		EE9863DE14914D18007CD136 /* ZWMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMD5.m; sourceTree = "<group>"; };
+		EE9863DF14914D18007CD136 /* ZWMigrationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMigrationManager.h; sourceTree = "<group>"; };
+		EE9863E014914D18007CD136 /* ZWMigrationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMigrationManager.m; sourceTree = "<group>"; };
+		EE9863E114914D18007CD136 /* ZWMigrationRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMigrationRule.h; sourceTree = "<group>"; };
+		EE9863E214914D18007CD136 /* ZWMigrationRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMigrationRule.m; sourceTree = "<group>"; };
+		EE9863E314914D18007CD136 /* ZWMigrationRuleManyToOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMigrationRuleManyToOne.h; sourceTree = "<group>"; };
+		EE9863E414914D18007CD136 /* ZWMigrationRuleManyToOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMigrationRuleManyToOne.m; sourceTree = "<group>"; };
+		EE9863E514914D18007CD136 /* ZWMigrationRuleOneToMany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMigrationRuleOneToMany.h; sourceTree = "<group>"; };
+		EE9863E614914D18007CD136 /* ZWMigrationRuleOneToMany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMigrationRuleOneToMany.m; sourceTree = "<group>"; };
+		EE9863E714914D18007CD136 /* ZWMigrationRuleOneToOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMigrationRuleOneToOne.h; sourceTree = "<group>"; };
+		EE9863E814914D18007CD136 /* ZWMigrationRuleOneToOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMigrationRuleOneToOne.m; sourceTree = "<group>"; };
+		EE9863E914914D18007CD136 /* ZWSHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWSHA1.h; sourceTree = "<group>"; };
+		EE9863EA14914D18007CD136 /* ZWSHA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWSHA1.m; sourceTree = "<group>"; };
+		EE9863EB14914D18007CD136 /* ZWStringFromNumberValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWStringFromNumberValueTransformer.h; sourceTree = "<group>"; };
+		EE9863EC14914D18007CD136 /* ZWStringFromNumberValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWStringFromNumberValueTransformer.m; sourceTree = "<group>"; };
+		EE9863ED14914D18007CD136 /* ZWURLCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWURLCacheManager.h; sourceTree = "<group>"; };
+		EE9863EE14914D18007CD136 /* ZWURLCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWURLCacheManager.m; sourceTree = "<group>"; };
+		EE9863EF14914D18007CD136 /* ZWURLFromStringValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWURLFromStringValueTransformer.h; sourceTree = "<group>"; };
+		EE9863F014914D18007CD136 /* ZWURLFromStringValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWURLFromStringValueTransformer.m; sourceTree = "<group>"; };
+		EE9863F114914D18007CD136 /* ZWValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWValueTransformer.h; sourceTree = "<group>"; };
+		EE9863F214914D18007CD136 /* ZWValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWValueTransformer.m; sourceTree = "<group>"; };
+		EE9863F314914D18007CD136 /* ZWWaitOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWWaitOperation.h; sourceTree = "<group>"; };
+		EE9863F414914D18007CD136 /* ZWWaitOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWWaitOperation.m; sourceTree = "<group>"; };
+		EE9863F514914D18007CD136 /* CLLocation+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE9863F614914D18007CD136 /* CLLocation+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE9863F714914D18007CD136 /* CoreLocation+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreLocation+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE9863F814914D18007CD136 /* CoreLocation+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CoreLocation+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE9863F914914D18007CD136 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		EE9863FA14914D18007CD136 /* hmac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hmac.m; sourceTree = "<group>"; };
+		EE9863FD14914D18007CD136 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		EE9863FE14914D18007CD136 /* md5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = md5.m; sourceTree = "<group>"; };
+		EE98641514914D18007CD136 /* NSArray+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98641614914D18007CD136 /* NSArray+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98641714914D18007CD136 /* NSAutoreleasePool+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAutoreleasePool+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98641814914D18007CD136 /* NSAutoreleasePool+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAutoreleasePool+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98641914914D18007CD136 /* NSCoder+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCoder+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98641A14914D18007CD136 /* NSCoder+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCoder+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98641B14914D18007CD136 /* NSData+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98641C14914D18007CD136 /* NSData+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98641D14914D18007CD136 /* NSDate+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98641E14914D18007CD136 /* NSDate+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98641F14914D18007CD136 /* NSDictionary+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98642014914D18007CD136 /* NSDictionary+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98642114914D18007CD136 /* NSEnumerator+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEnumerator+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98642214914D18007CD136 /* NSEnumerator+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSEnumerator+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98642314914D18007CD136 /* NSFetchRequest+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFetchRequest+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98642414914D18007CD136 /* NSFetchRequest+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFetchRequest+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98642514914D18007CD136 /* NSFileManager+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98642614914D18007CD136 /* NSFileManager+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98642714914D18007CD136 /* NSIndexPath+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98642814914D18007CD136 /* NSIndexPath+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98642914914D18007CD136 /* NSInvocation+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98642A14914D18007CD136 /* NSInvocation+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98642B14914D18007CD136 /* NSManagedObject+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98642C14914D18007CD136 /* NSManagedObject+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98642D14914D18007CD136 /* NSManagedObjectContext+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98642E14914D18007CD136 /* NSManagedObjectContext+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98642F14914D18007CD136 /* NSMutableDictionary+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98643014914D18007CD136 /* NSMutableDictionary+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98643114914D18007CD136 /* NSNotificationCenter+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98643214914D18007CD136 /* NSNotificationCenter+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98643314914D18007CD136 /* NSObject+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98643414914D18007CD136 /* NSObject+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98643514914D18007CD136 /* NSOperation+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOperation+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98643614914D18007CD136 /* NSOperation+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOperation+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98643714914D18007CD136 /* NSOperationQueue+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOperationQueue+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98643814914D18007CD136 /* NSOperationQueue+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOperationQueue+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98643914914D18007CD136 /* NSPersistentStore+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStore+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98643A14914D18007CD136 /* NSPersistentStore+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStore+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98643B14914D18007CD136 /* NSPersistentStoreCoordinator+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStoreCoordinator+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98643C14914D18007CD136 /* NSPersistentStoreCoordinator+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStoreCoordinator+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98643D14914D18007CD136 /* NSScanner+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScanner+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98643E14914D18007CD136 /* NSScanner+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScanner+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98643F14914D18007CD136 /* NSSet+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98644014914D18007CD136 /* NSSet+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98644114914D18007CD136 /* NSString+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98644214914D18007CD136 /* NSString+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98644314914D18007CD136 /* NSUserDefaults+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98644414914D18007CD136 /* NSUserDefaults+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98644514914D18007CD136 /* ObjC+ZWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ObjC+ZWExtensions.h"; sourceTree = "<group>"; };
+		EE98644614914D18007CD136 /* ObjC+ZWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjC+ZWExtensions.m"; sourceTree = "<group>"; };
+		EE98644714914D18007CD136 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		EE98644814914D18007CD136 /* sha1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sha1.m; sourceTree = "<group>"; };
+		EE9864F214914DFB007CD136 /* ZWBlockInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWBlockInvocation.h; sourceTree = "<group>"; };
+		EE9864F314914DFB007CD136 /* ZWBlockInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWBlockInvocation.m; sourceTree = "<group>"; };
+		EE9864F414914DFB007CD136 /* ZWEasingEquations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWEasingEquations.h; sourceTree = "<group>"; };
+		EE9864F514914DFB007CD136 /* ZWGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWGeometry.h; sourceTree = "<group>"; };
+		EE9864F614914DFB007CD136 /* ZWGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWGeometry.m; sourceTree = "<group>"; };
+		EE9864F914914DFB007CD136 /* ZWReachabilityMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWReachabilityMonitor.h; sourceTree = "<group>"; };
+		EE9864FA14914DFB007CD136 /* ZWReachabilityMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWReachabilityMonitor.m; sourceTree = "<group>"; };
+		EEDC3A24155FFB7000678E17 /* ZWWeakRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWWeakRuntime.h; sourceTree = "<group>"; };
+		EEDC3A25155FFB7000678E17 /* ZWWeakRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWWeakRuntime.m; sourceTree = "<group>"; };
+		EEDC3A26155FFB7000678E17 /* ZWWeakRuntimeClang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWWeakRuntimeClang.h; sourceTree = "<group>"; };
+		EEDC3A27155FFB7000678E17 /* ZWWeakRuntimeClang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWWeakRuntimeClang.m; sourceTree = "<group>"; };
+		EEDC3A28155FFB7000678E17 /* ZWWeakRuntimeProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWWeakRuntimeProxy.h; sourceTree = "<group>"; };
+		EEDC3A29155FFB7000678E17 /* ZWWeakRuntimeProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWWeakRuntimeProxy.m; sourceTree = "<group>"; };
+		EEFB08E515181D0D00C0B1A2 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE69E30F145620C50042E1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECE5FE9145622BE00585309 /* CoreImage.framework in Frameworks */,
+				EECE5FEA145622BE00585309 /* Accelerate.framework in Frameworks */,
+				EECE5FEB145622BE00585309 /* AVFoundation.framework in Frameworks */,
+				EECE5FEC145622BE00585309 /* CFNetwork.framework in Frameworks */,
+				EECE5FED145622BE00585309 /* CoreAudio.framework in Frameworks */,
+				EECE5FEE145622BE00585309 /* CoreData.framework in Frameworks */,
+				EECE5FEF145622BE00585309 /* CoreFoundation.framework in Frameworks */,
+				EECE5FF0145622BE00585309 /* CoreGraphics.framework in Frameworks */,
+				EECE5FF2145622BE00585309 /* CoreLocation.framework in Frameworks */,
+				EECE5FF3145622BE00585309 /* CoreMotion.framework in Frameworks */,
+				EECE5FF4145622BE00585309 /* CoreTelephony.framework in Frameworks */,
+				EECE5FF5145622BE00585309 /* CoreText.framework in Frameworks */,
+				EECE5FF6145622BE00585309 /* CoreVideo.framework in Frameworks */,
+				EECE5FF7145622BE00585309 /* EventKit.framework in Frameworks */,
+				EECE5FF8145622BE00585309 /* EventKitUI.framework in Frameworks */,
+				EECE5FF9145622BE00585309 /* Foundation.framework in Frameworks */,
+				EECE5FFA145622BE00585309 /* GameKit.framework in Frameworks */,
+				EECE5FFB145622BE00585309 /* iAd.framework in Frameworks */,
+				EECE5FFC145622BE00585309 /* ImageIO.framework in Frameworks */,
+				EECE5FFD145622BE00585309 /* MapKit.framework in Frameworks */,
+				EECE5FFE145622BE00585309 /* MediaPlayer.framework in Frameworks */,
+				EECE5FFF145622BE00585309 /* MessageUI.framework in Frameworks */,
+				EECE6000145622BE00585309 /* QuartzCore.framework in Frameworks */,
+				EECE6001145622BE00585309 /* Security.framework in Frameworks */,
+				EECE6002145622BE00585309 /* StoreKit.framework in Frameworks */,
+				EECE6003145622BE00585309 /* SystemConfiguration.framework in Frameworks */,
+				EECE6004145622BE00585309 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F375A1500674C00274C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F381E1501758900274C48 /* SystemConfiguration.framework in Frameworks */,
+				EE8F38161501756C00274C48 /* Accelerate.framework in Frameworks */,
+				EE8F38171501756C00274C48 /* AVFoundation.framework in Frameworks */,
+				EE8F38181501756C00274C48 /* CoreData.framework in Frameworks */,
+				EE8F38191501756C00274C48 /* CoreLocation.framework in Frameworks */,
+				EE8F381A1501756C00274C48 /* Quartz.framework in Frameworks */,
+				EE8F381B1501756C00274C48 /* QuartzCore.framework in Frameworks */,
+				EE8F381C1501756C00274C48 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE0D265613D6461500947556 = {
+			isa = PBXGroup;
+			children = (
+				EE9863A514914D18007CD136 /* ZWCoreKit */,
+				EE1E477A13D64FB900B5A9DD /* Frameworks */,
+				EE69E312145620C50042E1B3 /* libZWCoreKit-iOS.a */,
+				EE8F375D1500674C00274C48 /* libZWCoreKit-OSX.a */,
+			);
+			sourceTree = "<group>";
+		};
+		EE1E477A13D64FB900B5A9DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE1E495313D670BE00B5A9DD /* iOS */,
+				EE8F38151501755A00274C48 /* OSX */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE1E495313D670BE00B5A9DD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EE158C9013DD7601003C5FCC /* CoreImage.framework */,
+				EE1E491D13D670B900B5A9DD /* Accelerate.framework */,
+				EE1E491E13D670B900B5A9DD /* AVFoundation.framework */,
+				EE1E491F13D670B900B5A9DD /* CFNetwork.framework */,
+				EE1E492013D670B900B5A9DD /* CoreAudio.framework */,
+				EE1E492113D670B900B5A9DD /* CoreData.framework */,
+				EE1E492213D670B900B5A9DD /* CoreFoundation.framework */,
+				EE1E492313D670B900B5A9DD /* CoreGraphics.framework */,
+				EE1E492413D670B900B5A9DD /* CoreImage.framework */,
+				EE1E492513D670B900B5A9DD /* CoreLocation.framework */,
+				EE1E492613D670B900B5A9DD /* CoreMotion.framework */,
+				EE1E492713D670B900B5A9DD /* CoreTelephony.framework */,
+				EE1E492813D670B900B5A9DD /* CoreText.framework */,
+				EE1E492913D670B900B5A9DD /* CoreVideo.framework */,
+				EE1E492A13D670B900B5A9DD /* EventKit.framework */,
+				EE1E492B13D670B900B5A9DD /* EventKitUI.framework */,
+				EE1E492C13D670B900B5A9DD /* Foundation.framework */,
+				EE1E492D13D670B900B5A9DD /* GameKit.framework */,
+				EE1E492E13D670B900B5A9DD /* iAd.framework */,
+				EE1E492F13D670B900B5A9DD /* ImageIO.framework */,
+				EE1E493013D670B900B5A9DD /* MapKit.framework */,
+				EE1E493113D670B900B5A9DD /* MediaPlayer.framework */,
+				EE1E493213D670B900B5A9DD /* MessageUI.framework */,
+				EE1E493313D670B900B5A9DD /* QuartzCore.framework */,
+				EE1E493413D670B900B5A9DD /* Security.framework */,
+				EE1E493513D670B900B5A9DD /* StoreKit.framework */,
+				EE1E493613D670B900B5A9DD /* SystemConfiguration.framework */,
+				EE1E493713D670B900B5A9DD /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EE8F374C1500672E00274C48 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F374D1500672E00274C48 /* AppKit.framework */,
+				EE8F374E1500672E00274C48 /* CoreData.framework */,
+				EE8F374F1500672E00274C48 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EE8F38151501755A00274C48 /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F381D1501758900274C48 /* SystemConfiguration.framework */,
+				EE8F38091501754500274C48 /* Accelerate.framework */,
+				EE8F380A1501754500274C48 /* AVFoundation.framework */,
+				EE8F380B1501754500274C48 /* CoreData.framework */,
+				EE8F380C1501754500274C48 /* CoreLocation.framework */,
+				EE8F380D1501754500274C48 /* Quartz.framework */,
+				EE8F380E1501754500274C48 /* QuartzCore.framework */,
+				EE8F374A1500672E00274C48 /* Cocoa.framework */,
+				EE8F374C1500672E00274C48 /* Other Frameworks */,
+			);
+			name = OSX;
+			sourceTree = "<group>";
+		};
+		EE9863A514914D18007CD136 /* ZWCoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				EE9863CE14914D18007CD136 /* ZWCoreKit-Prefix.pch */,
+				EE9863CF14914D18007CD136 /* ZWCoreKit.h */,
+				EE9863D014914D18007CD136 /* ZWCoreKitAvailability.h */,
+				EE9863D114914D18007CD136 /* ZWCoreKitConstants.h */,
+				EE9863D214914D18007CD136 /* ZWCoreKitConstants.m */,
+				EE9863D314914D18007CD136 /* ZWCoreKitMacros.h */,
+				EE9863D414914D18007CD136 /* ZWCoreKitMacros.m */,
+				EE9863D514914D18007CD136 /* ZWCoreKitTypes.h */,
+				EE9863D614914D18007CD136 /* ZWCoreKitTypes.m */,
+				EEDC3A22155FFB4D00678E17 /* Weak Runtime */,
+				EE9864EA14914D20007CD136 /* Extensions */,
+				EE9864EB14914D2C007CD136 /* Crypto */,
+				EE9864EC14914D37007CD136 /* Cache */,
+				EE9864ED14914D3E007CD136 /* Value Transformers */,
+				EE9864EE14914D4B007CD136 /* Operations */,
+				EE9864EF14914D56007CD136 /* Core Data */,
+				EE9864F014914D88007CD136 /* Core Location */,
+				EE98651A14914E02007CD136 /* Models */,
+				EE98651B14914E0A007CD136 /* Network */,
+				EEFB08E515181D0D00C0B1A2 /* Resources */,
+			);
+			path = ZWCoreKit;
+			sourceTree = "<group>";
+		};
+		EE9864EA14914D20007CD136 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE9863A614914D18007CD136 /* CALayer+ZWExtensions.h */,
+				EE9863A714914D18007CD136 /* CALayer+ZWExtensions.m */,
+				EE9863A814914D18007CD136 /* CATiledLayer+ZWExtensions.h */,
+				EE9863A914914D18007CD136 /* CATiledLayer+ZWExtensions.m */,
+				EE9863AA14914D18007CD136 /* CATransaction+ZWExtensions.h */,
+				EE9863AB14914D18007CD136 /* CATransaction+ZWExtensions.m */,
+				EE9863AC14914D18007CD136 /* CGColor+ZWExtensions.h */,
+				EE9863AD14914D18007CD136 /* CGColor+ZWExtensions.m */,
+				EE9863AE14914D18007CD136 /* CGColorSpace+ZWExtensions.h */,
+				EE9863AF14914D18007CD136 /* CGColorSpace+ZWExtensions.m */,
+				EE9863B014914D18007CD136 /* CGContext+ZWExtensions.h */,
+				EE9863B114914D18007CD136 /* CGContext+ZWExtensions.m */,
+				EE9863B214914D18007CD136 /* CGImage+ZWExtensions.h */,
+				EE9863B314914D18007CD136 /* CGImage+ZWExtensions.m */,
+				EE9863B414914D18007CD136 /* CGPath+ZWExtensions.h */,
+				EE9863B514914D18007CD136 /* CGPath+ZWExtensions.m */,
+				EE9863B614914D18007CD136 /* CGPattern+ZWExtensions.h */,
+				EE9863B714914D18007CD136 /* CGPattern+ZWExtensions.m */,
+				EE9863B814914D18007CD136 /* CGPoint+ZWExtensions.h */,
+				EE9863B914914D18007CD136 /* CGPoint+ZWExtensions.m */,
+				EE9863BA14914D18007CD136 /* CGRect+ZWExtensions.h */,
+				EE9863BB14914D18007CD136 /* CGRect+ZWExtensions.m */,
+				EE9863BC14914D18007CD136 /* CGSize+ZWExtensions.h */,
+				EE9863BD14914D18007CD136 /* CGSize+ZWExtensions.m */,
+				EE9863F514914D18007CD136 /* CLLocation+ZWExtensions.h */,
+				EE9863F614914D18007CD136 /* CLLocation+ZWExtensions.m */,
+				EE9863F714914D18007CD136 /* CoreLocation+ZWExtensions.h */,
+				EE9863F814914D18007CD136 /* CoreLocation+ZWExtensions.m */,
+				EE98641514914D18007CD136 /* NSArray+ZWExtensions.h */,
+				EE98641614914D18007CD136 /* NSArray+ZWExtensions.m */,
+				EE98641714914D18007CD136 /* NSAutoreleasePool+ZWExtensions.h */,
+				EE98641814914D18007CD136 /* NSAutoreleasePool+ZWExtensions.m */,
+				EE98641914914D18007CD136 /* NSCoder+ZWExtensions.h */,
+				EE98641A14914D18007CD136 /* NSCoder+ZWExtensions.m */,
+				EE98641B14914D18007CD136 /* NSData+ZWExtensions.h */,
+				EE98641C14914D18007CD136 /* NSData+ZWExtensions.m */,
+				EE98641D14914D18007CD136 /* NSDate+ZWExtensions.h */,
+				EE98641E14914D18007CD136 /* NSDate+ZWExtensions.m */,
+				EE98641F14914D18007CD136 /* NSDictionary+ZWExtensions.h */,
+				EE98642014914D18007CD136 /* NSDictionary+ZWExtensions.m */,
+				EE98642114914D18007CD136 /* NSEnumerator+ZWExtensions.h */,
+				EE98642214914D18007CD136 /* NSEnumerator+ZWExtensions.m */,
+				EE98642314914D18007CD136 /* NSFetchRequest+ZWExtensions.h */,
+				EE98642414914D18007CD136 /* NSFetchRequest+ZWExtensions.m */,
+				EE98642514914D18007CD136 /* NSFileManager+ZWExtensions.h */,
+				EE98642614914D18007CD136 /* NSFileManager+ZWExtensions.m */,
+				EE98642714914D18007CD136 /* NSIndexPath+ZWExtensions.h */,
+				EE98642814914D18007CD136 /* NSIndexPath+ZWExtensions.m */,
+				EE98642914914D18007CD136 /* NSInvocation+ZWExtensions.h */,
+				EE98642A14914D18007CD136 /* NSInvocation+ZWExtensions.m */,
+				EE98642B14914D18007CD136 /* NSManagedObject+ZWExtensions.h */,
+				EE98642C14914D18007CD136 /* NSManagedObject+ZWExtensions.m */,
+				EE98642D14914D18007CD136 /* NSManagedObjectContext+ZWExtensions.h */,
+				EE98642E14914D18007CD136 /* NSManagedObjectContext+ZWExtensions.m */,
+				EE98642F14914D18007CD136 /* NSMutableDictionary+ZWExtensions.h */,
+				EE98643014914D18007CD136 /* NSMutableDictionary+ZWExtensions.m */,
+				EE98643114914D18007CD136 /* NSNotificationCenter+ZWExtensions.h */,
+				EE98643214914D18007CD136 /* NSNotificationCenter+ZWExtensions.m */,
+				EE98643314914D18007CD136 /* NSObject+ZWExtensions.h */,
+				EE98643414914D18007CD136 /* NSObject+ZWExtensions.m */,
+				EE98643514914D18007CD136 /* NSOperation+ZWExtensions.h */,
+				EE98643614914D18007CD136 /* NSOperation+ZWExtensions.m */,
+				EE98643714914D18007CD136 /* NSOperationQueue+ZWExtensions.h */,
+				EE98643814914D18007CD136 /* NSOperationQueue+ZWExtensions.m */,
+				EE98643914914D18007CD136 /* NSPersistentStore+ZWExtensions.h */,
+				EE98643A14914D18007CD136 /* NSPersistentStore+ZWExtensions.m */,
+				EE98643B14914D18007CD136 /* NSPersistentStoreCoordinator+ZWExtensions.h */,
+				EE98643C14914D18007CD136 /* NSPersistentStoreCoordinator+ZWExtensions.m */,
+				EE98643D14914D18007CD136 /* NSScanner+ZWExtensions.h */,
+				EE98643E14914D18007CD136 /* NSScanner+ZWExtensions.m */,
+				EE98643F14914D18007CD136 /* NSSet+ZWExtensions.h */,
+				EE98644014914D18007CD136 /* NSSet+ZWExtensions.m */,
+				EE98644114914D18007CD136 /* NSString+ZWExtensions.h */,
+				EE98644214914D18007CD136 /* NSString+ZWExtensions.m */,
+				EE98644314914D18007CD136 /* NSUserDefaults+ZWExtensions.h */,
+				EE98644414914D18007CD136 /* NSUserDefaults+ZWExtensions.m */,
+				EE98644514914D18007CD136 /* ObjC+ZWExtensions.h */,
+				EE98644614914D18007CD136 /* ObjC+ZWExtensions.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		EE9864EB14914D2C007CD136 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				EE98644714914D18007CD136 /* sha1.h */,
+				EE98644814914D18007CD136 /* sha1.m */,
+				EE9863F914914D18007CD136 /* hmac.h */,
+				EE9863FA14914D18007CD136 /* hmac.m */,
+				EE9863FD14914D18007CD136 /* md5.h */,
+				EE9863FE14914D18007CD136 /* md5.m */,
+				EE9863BE14914D18007CD136 /* ZWB64.h */,
+				EE9863BF14914D18007CD136 /* ZWB64.m */,
+				EE9863D714914D18007CD136 /* ZWHMAC.h */,
+				EE9863D814914D18007CD136 /* ZWHMAC.m */,
+				EE9863DD14914D18007CD136 /* ZWMD5.h */,
+				EE9863DE14914D18007CD136 /* ZWMD5.m */,
+				EE9863E914914D18007CD136 /* ZWSHA1.h */,
+				EE9863EA14914D18007CD136 /* ZWSHA1.m */,
+			);
+			name = Crypto;
+			sourceTree = "<group>";
+		};
+		EE9864EC14914D37007CD136 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				EE9863C014914D18007CD136 /* ZWCacheManager.h */,
+				EE9863C114914D18007CD136 /* ZWCacheManager.m */,
+				EE9863ED14914D18007CD136 /* ZWURLCacheManager.h */,
+				EE9863EE14914D18007CD136 /* ZWURLCacheManager.m */,
+			);
+			name = Cache;
+			sourceTree = "<group>";
+		};
+		EE9864ED14914D3E007CD136 /* Value Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				EE9863F114914D18007CD136 /* ZWValueTransformer.h */,
+				EE9863F214914D18007CD136 /* ZWValueTransformer.m */,
+				EE9863C214914D18007CD136 /* ZWCollectionHasMultipleValueTransformer.h */,
+				EE9863C314914D18007CD136 /* ZWCollectionHasMultipleValueTransformer.m */,
+				EE9863C414914D18007CD136 /* ZWCollectionHasSingleValueTransformer.h */,
+				EE9863C514914D18007CD136 /* ZWCollectionHasSingleValueTransformer.m */,
+				EE9863C614914D18007CD136 /* ZWCollectionIsEmptyValueTransformer.h */,
+				EE9863C714914D18007CD136 /* ZWCollectionIsEmptyValueTransformer.m */,
+				EE9863C814914D18007CD136 /* ZWCollectionIsNotEmptyValueTransformer.h */,
+				EE9863C914914D18007CD136 /* ZWCollectionIsNotEmptyValueTransformer.m */,
+				EE9863EB14914D18007CD136 /* ZWStringFromNumberValueTransformer.h */,
+				EE9863EC14914D18007CD136 /* ZWStringFromNumberValueTransformer.m */,
+				EE9863EF14914D18007CD136 /* ZWURLFromStringValueTransformer.h */,
+				EE9863F014914D18007CD136 /* ZWURLFromStringValueTransformer.m */,
+			);
+			name = "Value Transformers";
+			sourceTree = "<group>";
+		};
+		EE9864EE14914D4B007CD136 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				EE9863F314914D18007CD136 /* ZWWaitOperation.h */,
+				EE9863F414914D18007CD136 /* ZWWaitOperation.m */,
+				EE9863CA14914D18007CD136 /* ZWConcurrentOperation.h */,
+				EE9863CB14914D18007CD136 /* ZWConcurrentOperation.m */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		EE9864EF14914D56007CD136 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				EE9863DF14914D18007CD136 /* ZWMigrationManager.h */,
+				EE9863E014914D18007CD136 /* ZWMigrationManager.m */,
+				EE9863E114914D18007CD136 /* ZWMigrationRule.h */,
+				EE9863E214914D18007CD136 /* ZWMigrationRule.m */,
+				EE9863E314914D18007CD136 /* ZWMigrationRuleManyToOne.h */,
+				EE9863E414914D18007CD136 /* ZWMigrationRuleManyToOne.m */,
+				EE9863E514914D18007CD136 /* ZWMigrationRuleOneToMany.h */,
+				EE9863E614914D18007CD136 /* ZWMigrationRuleOneToMany.m */,
+				EE9863E714914D18007CD136 /* ZWMigrationRuleOneToOne.h */,
+				EE9863E814914D18007CD136 /* ZWMigrationRuleOneToOne.m */,
+				EE9863CC14914D18007CD136 /* ZWCoreDataContainer.h */,
+				EE9863CD14914D18007CD136 /* ZWCoreDataContainer.m */,
+				EE9863DB14914D18007CD136 /* ZWManagedObjectArchiving.h */,
+				EE9863DC14914D18007CD136 /* ZWManagedObjectArchiving.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		EE9864F014914D88007CD136 /* Core Location */ = {
+			isa = PBXGroup;
+			children = (
+				EE9863D914914D18007CD136 /* ZWLocationMonitor.h */,
+				EE9863DA14914D18007CD136 /* ZWLocationMonitor.m */,
+			);
+			name = "Core Location";
+			sourceTree = "<group>";
+		};
+		EE98651A14914E02007CD136 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE9864F214914DFB007CD136 /* ZWBlockInvocation.h */,
+				EE9864F314914DFB007CD136 /* ZWBlockInvocation.m */,
+				EE9864F414914DFB007CD136 /* ZWEasingEquations.h */,
+				EE9864F514914DFB007CD136 /* ZWGeometry.h */,
+				EE9864F614914DFB007CD136 /* ZWGeometry.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EE98651B14914E0A007CD136 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EE9864F914914DFB007CD136 /* ZWReachabilityMonitor.h */,
+				EE9864FA14914DFB007CD136 /* ZWReachabilityMonitor.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		EEDC3A22155FFB4D00678E17 /* Weak Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				EEDC3A24155FFB7000678E17 /* ZWWeakRuntime.h */,
+				EEDC3A25155FFB7000678E17 /* ZWWeakRuntime.m */,
+				EEDC3A26155FFB7000678E17 /* ZWWeakRuntimeClang.h */,
+				EEDC3A27155FFB7000678E17 /* ZWWeakRuntimeClang.m */,
+				EEDC3A28155FFB7000678E17 /* ZWWeakRuntimeProxy.h */,
+				EEDC3A29155FFB7000678E17 /* ZWWeakRuntimeProxy.m */,
+			);
+			name = "Weak Runtime";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EE69E310145620C50042E1B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE98644914914D18007CD136 /* CALayer+ZWExtensions.h in Headers */,
+				EE98644B14914D18007CD136 /* CATiledLayer+ZWExtensions.h in Headers */,
+				EE98644D14914D18007CD136 /* CATransaction+ZWExtensions.h in Headers */,
+				EE98644F14914D18007CD136 /* CGColor+ZWExtensions.h in Headers */,
+				EE98645114914D18007CD136 /* CGColorSpace+ZWExtensions.h in Headers */,
+				EE98645314914D18007CD136 /* CGContext+ZWExtensions.h in Headers */,
+				EE98645514914D18007CD136 /* CGImage+ZWExtensions.h in Headers */,
+				EE98645714914D18007CD136 /* CGPath+ZWExtensions.h in Headers */,
+				EE98645914914D18007CD136 /* CGPattern+ZWExtensions.h in Headers */,
+				EE98645B14914D18007CD136 /* CGPoint+ZWExtensions.h in Headers */,
+				EE98645D14914D18007CD136 /* CGRect+ZWExtensions.h in Headers */,
+				EE98645F14914D18007CD136 /* CGSize+ZWExtensions.h in Headers */,
+				EE98646114914D18007CD136 /* ZWB64.h in Headers */,
+				EE98646314914D18007CD136 /* ZWCacheManager.h in Headers */,
+				EE98646514914D18007CD136 /* ZWCollectionHasMultipleValueTransformer.h in Headers */,
+				EE98646714914D18007CD136 /* ZWCollectionHasSingleValueTransformer.h in Headers */,
+				EE98646914914D18007CD136 /* ZWCollectionIsEmptyValueTransformer.h in Headers */,
+				EE98646B14914D18007CD136 /* ZWCollectionIsNotEmptyValueTransformer.h in Headers */,
+				EE98646D14914D18007CD136 /* ZWConcurrentOperation.h in Headers */,
+				EE98646F14914D18007CD136 /* ZWCoreDataContainer.h in Headers */,
+				EE98647214914D18007CD136 /* ZWCoreKit.h in Headers */,
+				EE98647314914D18007CD136 /* ZWCoreKitAvailability.h in Headers */,
+				EE98647414914D18007CD136 /* ZWCoreKitConstants.h in Headers */,
+				EE98647614914D18007CD136 /* ZWCoreKitMacros.h in Headers */,
+				EE98647814914D18007CD136 /* ZWCoreKitTypes.h in Headers */,
+				EE98647A14914D18007CD136 /* ZWHMAC.h in Headers */,
+				EE98647C14914D18007CD136 /* ZWLocationMonitor.h in Headers */,
+				EE98647E14914D18007CD136 /* ZWManagedObjectArchiving.h in Headers */,
+				EE98648014914D18007CD136 /* ZWMD5.h in Headers */,
+				EE98648214914D18007CD136 /* ZWMigrationManager.h in Headers */,
+				EE98648414914D18007CD136 /* ZWMigrationRule.h in Headers */,
+				EE98648614914D18007CD136 /* ZWMigrationRuleManyToOne.h in Headers */,
+				EE98648814914D18007CD136 /* ZWMigrationRuleOneToMany.h in Headers */,
+				EE98648A14914D18007CD136 /* ZWMigrationRuleOneToOne.h in Headers */,
+				EE98648C14914D18007CD136 /* ZWSHA1.h in Headers */,
+				EE98648E14914D18007CD136 /* ZWStringFromNumberValueTransformer.h in Headers */,
+				EE98649014914D18007CD136 /* ZWURLCacheManager.h in Headers */,
+				EE98649214914D18007CD136 /* ZWURLFromStringValueTransformer.h in Headers */,
+				EE98649414914D18007CD136 /* ZWValueTransformer.h in Headers */,
+				EE98649614914D18007CD136 /* ZWWaitOperation.h in Headers */,
+				EE98649814914D18007CD136 /* CLLocation+ZWExtensions.h in Headers */,
+				EE98649A14914D18007CD136 /* CoreLocation+ZWExtensions.h in Headers */,
+				EE9864B614914D18007CD136 /* NSArray+ZWExtensions.h in Headers */,
+				EE9864B814914D18007CD136 /* NSAutoreleasePool+ZWExtensions.h in Headers */,
+				EE9864BA14914D18007CD136 /* NSCoder+ZWExtensions.h in Headers */,
+				EE9864BC14914D18007CD136 /* NSData+ZWExtensions.h in Headers */,
+				EE9864BE14914D18007CD136 /* NSDate+ZWExtensions.h in Headers */,
+				EE9864C014914D18007CD136 /* NSDictionary+ZWExtensions.h in Headers */,
+				EE9864C214914D18007CD136 /* NSEnumerator+ZWExtensions.h in Headers */,
+				EE9864C414914D18007CD136 /* NSFetchRequest+ZWExtensions.h in Headers */,
+				EE9864C614914D18007CD136 /* NSFileManager+ZWExtensions.h in Headers */,
+				EE9864C814914D18007CD136 /* NSIndexPath+ZWExtensions.h in Headers */,
+				EE9864CA14914D18007CD136 /* NSInvocation+ZWExtensions.h in Headers */,
+				EE9864CC14914D18007CD136 /* NSManagedObject+ZWExtensions.h in Headers */,
+				EE9864CE14914D18007CD136 /* NSManagedObjectContext+ZWExtensions.h in Headers */,
+				EE9864D014914D18007CD136 /* NSMutableDictionary+ZWExtensions.h in Headers */,
+				EE9864D214914D18007CD136 /* NSNotificationCenter+ZWExtensions.h in Headers */,
+				EE9864D414914D18007CD136 /* NSObject+ZWExtensions.h in Headers */,
+				EE9864D614914D18007CD136 /* NSOperation+ZWExtensions.h in Headers */,
+				EE9864D814914D18007CD136 /* NSOperationQueue+ZWExtensions.h in Headers */,
+				EE9864DA14914D18007CD136 /* NSPersistentStore+ZWExtensions.h in Headers */,
+				EE9864DC14914D18007CD136 /* NSPersistentStoreCoordinator+ZWExtensions.h in Headers */,
+				EE9864DE14914D18007CD136 /* NSScanner+ZWExtensions.h in Headers */,
+				EE9864E014914D18007CD136 /* NSSet+ZWExtensions.h in Headers */,
+				EE9864E214914D18007CD136 /* NSString+ZWExtensions.h in Headers */,
+				EE9864E414914D18007CD136 /* NSUserDefaults+ZWExtensions.h in Headers */,
+				EE9864E614914D18007CD136 /* ObjC+ZWExtensions.h in Headers */,
+				EE98650614914DFB007CD136 /* ZWBlockInvocation.h in Headers */,
+				EE98650814914DFB007CD136 /* ZWEasingEquations.h in Headers */,
+				EE98650914914DFB007CD136 /* ZWGeometry.h in Headers */,
+				EE98650D14914DFB007CD136 /* ZWReachabilityMonitor.h in Headers */,
+				EE98649C14914D18007CD136 /* hmac.h in Headers */,
+				EE9864A014914D18007CD136 /* md5.h in Headers */,
+				EE9864E814914D18007CD136 /* sha1.h in Headers */,
+				EEDC3A2A155FFB7000678E17 /* ZWWeakRuntime.h in Headers */,
+				EEDC3A2E155FFB7000678E17 /* ZWWeakRuntimeClang.h in Headers */,
+				EEDC3A32155FFB7000678E17 /* ZWWeakRuntimeProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F375B1500674C00274C48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F37B51500681400274C48 /* ZWCoreKit.h in Headers */,
+				EE8F37B61500681400274C48 /* ZWCoreKitAvailability.h in Headers */,
+				EE8F37B71500681400274C48 /* ZWCoreKitConstants.h in Headers */,
+				EE8F37B81500681400274C48 /* ZWCoreKitMacros.h in Headers */,
+				EE8F37B91500681400274C48 /* ZWCoreKitTypes.h in Headers */,
+				EE8F37BA1500681400274C48 /* CALayer+ZWExtensions.h in Headers */,
+				EE8F37BB1500681400274C48 /* CATiledLayer+ZWExtensions.h in Headers */,
+				EE8F37BC1500681400274C48 /* CATransaction+ZWExtensions.h in Headers */,
+				EE8F37BD1500681400274C48 /* CGColor+ZWExtensions.h in Headers */,
+				EE8F37BE1500681400274C48 /* CGColorSpace+ZWExtensions.h in Headers */,
+				EE8F37BF1500681400274C48 /* CGContext+ZWExtensions.h in Headers */,
+				EE8F37C01500681400274C48 /* CGImage+ZWExtensions.h in Headers */,
+				EE8F37C11500681400274C48 /* CGPath+ZWExtensions.h in Headers */,
+				EE8F37C21500681400274C48 /* CGPattern+ZWExtensions.h in Headers */,
+				EE8F37C31500681400274C48 /* CGPoint+ZWExtensions.h in Headers */,
+				EE8F37C41500681400274C48 /* CGRect+ZWExtensions.h in Headers */,
+				EE8F37C51500681400274C48 /* CGSize+ZWExtensions.h in Headers */,
+				EE8F37C61500681400274C48 /* CLLocation+ZWExtensions.h in Headers */,
+				EE8F37C71500681400274C48 /* CoreLocation+ZWExtensions.h in Headers */,
+				EE8F37C81500681400274C48 /* NSArray+ZWExtensions.h in Headers */,
+				EE8F37C91500681400274C48 /* NSAutoreleasePool+ZWExtensions.h in Headers */,
+				EE8F37CA1500681400274C48 /* NSCoder+ZWExtensions.h in Headers */,
+				EE8F37CB1500681400274C48 /* NSData+ZWExtensions.h in Headers */,
+				EE8F37CC1500681400274C48 /* NSDate+ZWExtensions.h in Headers */,
+				EE8F37CD1500681400274C48 /* NSDictionary+ZWExtensions.h in Headers */,
+				EE8F37CE1500681400274C48 /* NSEnumerator+ZWExtensions.h in Headers */,
+				EE8F37CF1500681400274C48 /* NSFetchRequest+ZWExtensions.h in Headers */,
+				EE8F37D01500681400274C48 /* NSFileManager+ZWExtensions.h in Headers */,
+				EE8F37D11500681400274C48 /* NSIndexPath+ZWExtensions.h in Headers */,
+				EE8F37D21500681400274C48 /* NSInvocation+ZWExtensions.h in Headers */,
+				EE8F37D31500681400274C48 /* NSManagedObject+ZWExtensions.h in Headers */,
+				EE8F37D41500681400274C48 /* NSManagedObjectContext+ZWExtensions.h in Headers */,
+				EE8F37D51500681400274C48 /* NSMutableDictionary+ZWExtensions.h in Headers */,
+				EE8F37D61500681400274C48 /* NSNotificationCenter+ZWExtensions.h in Headers */,
+				EE8F37D71500681400274C48 /* NSObject+ZWExtensions.h in Headers */,
+				EE8F37D81500681400274C48 /* NSOperation+ZWExtensions.h in Headers */,
+				EE8F37D91500681400274C48 /* NSOperationQueue+ZWExtensions.h in Headers */,
+				EE8F37DA1500681400274C48 /* NSPersistentStore+ZWExtensions.h in Headers */,
+				EE8F37DB1500681400274C48 /* NSPersistentStoreCoordinator+ZWExtensions.h in Headers */,
+				EE8F37DC1500681400274C48 /* NSScanner+ZWExtensions.h in Headers */,
+				EE8F37DD1500681400274C48 /* NSSet+ZWExtensions.h in Headers */,
+				EE8F37DE1500681400274C48 /* NSString+ZWExtensions.h in Headers */,
+				EE8F37DF1500681400274C48 /* NSUserDefaults+ZWExtensions.h in Headers */,
+				EE8F37E01500681400274C48 /* ObjC+ZWExtensions.h in Headers */,
+				EE8F37E41500681400274C48 /* ZWB64.h in Headers */,
+				EE8F37E51500681400274C48 /* ZWHMAC.h in Headers */,
+				EE8F37E61500681400274C48 /* ZWMD5.h in Headers */,
+				EE8F37E71500681400274C48 /* ZWSHA1.h in Headers */,
+				EE8F37E81500681400274C48 /* ZWCacheManager.h in Headers */,
+				EE8F37E91500681400274C48 /* ZWURLCacheManager.h in Headers */,
+				EE8F37EA1500681400274C48 /* ZWValueTransformer.h in Headers */,
+				EE8F37EB1500681400274C48 /* ZWCollectionHasMultipleValueTransformer.h in Headers */,
+				EE8F37EC1500681400274C48 /* ZWCollectionHasSingleValueTransformer.h in Headers */,
+				EE8F37ED1500681400274C48 /* ZWCollectionIsEmptyValueTransformer.h in Headers */,
+				EE8F37EE1500681400274C48 /* ZWCollectionIsNotEmptyValueTransformer.h in Headers */,
+				EE8F37EF1500681400274C48 /* ZWStringFromNumberValueTransformer.h in Headers */,
+				EE8F37F01500681400274C48 /* ZWURLFromStringValueTransformer.h in Headers */,
+				EE8F37F11500681400274C48 /* ZWWaitOperation.h in Headers */,
+				EE8F37F21500681400274C48 /* ZWConcurrentOperation.h in Headers */,
+				EE8F37F31500681400274C48 /* ZWMigrationManager.h in Headers */,
+				EE8F37F41500681400274C48 /* ZWMigrationRule.h in Headers */,
+				EE8F37F51500681400274C48 /* ZWMigrationRuleManyToOne.h in Headers */,
+				EE8F37F61500681400274C48 /* ZWMigrationRuleOneToMany.h in Headers */,
+				EE8F37F71500681400274C48 /* ZWMigrationRuleOneToOne.h in Headers */,
+				EE8F37F81500681400274C48 /* ZWCoreDataContainer.h in Headers */,
+				EE8F37F91500681400274C48 /* ZWManagedObjectArchiving.h in Headers */,
+				EE8F37FA1500681400274C48 /* ZWLocationMonitor.h in Headers */,
+				EE8F37FB1500681400274C48 /* ZWBlockInvocation.h in Headers */,
+				EE8F37FC1500681400274C48 /* ZWEasingEquations.h in Headers */,
+				EE8F37FD1500681400274C48 /* ZWGeometry.h in Headers */,
+				EE8F38061500683B00274C48 /* sha1.h in Headers */,
+				EE8F38071500683B00274C48 /* hmac.h in Headers */,
+				EE8F38081500683B00274C48 /* md5.h in Headers */,
+				EE8F3820150175C800274C48 /* ZWReachabilityMonitor.h in Headers */,
+				EEDC3A2B155FFB7000678E17 /* ZWWeakRuntime.h in Headers */,
+				EEDC3A2F155FFB7000678E17 /* ZWWeakRuntimeClang.h in Headers */,
+				EEDC3A33155FFB7000678E17 /* ZWWeakRuntimeProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EE69E311145620C50042E1B3 /* ZWCoreKit-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE69E31B145620C50042E1B3 /* Build configuration list for PBXNativeTarget "ZWCoreKit-iOS" */;
+			buildPhases = (
+				EE69E30E145620C50042E1B3 /* Sources */,
+				EE69E30F145620C50042E1B3 /* Frameworks */,
+				EE69E310145620C50042E1B3 /* Headers */,
+				EEFB08E91518209B00C0B1A2 /* Copy Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZWCoreKit-iOS";
+			productName = ZWCoreKit_ios;
+			productReference = EE69E312145620C50042E1B3 /* libZWCoreKit-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EE8F375C1500674C00274C48 /* ZWCoreKit-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8F37651500674D00274C48 /* Build configuration list for PBXNativeTarget "ZWCoreKit-OSX" */;
+			buildPhases = (
+				EE8F37591500674C00274C48 /* Sources */,
+				EE8F375A1500674C00274C48 /* Frameworks */,
+				EE8F375B1500674C00274C48 /* Headers */,
+				EEFB08E815181FB000C0B1A2 /* Copy Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZWCoreKit-OSX";
+			productName = "ZWCoreKit-OSX";
+			productReference = EE8F375D1500674C00274C48 /* libZWCoreKit-OSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE0D265813D6461500947556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = EE0D265B13D6461500947556 /* Build configuration list for PBXProject "ZWCoreKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE0D265613D6461500947556;
+			productRefGroup = EE0D265613D6461500947556;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE69E311145620C50042E1B3 /* ZWCoreKit-iOS */,
+				EE8F375C1500674C00274C48 /* ZWCoreKit-OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EEFB08E815181FB000C0B1A2 /* Copy Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "SRC_ROOT=\"ZWCoreKit/Resources\"\nDST_ROOT=$BUILT_PRODUCTS_DIR/Resources\nif [[ ! -d \"$DST_ROOT\" ]]; then mkdir -p \"$DST_ROOT\"; fi;\ncp -Rn \"$SRC_ROOT/\"* \"$DST_ROOT/\"\nexit 0";
+			showEnvVarsInLog = 0;
+		};
+		EEFB08E91518209B00C0B1A2 /* Copy Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SRC_ROOT=\"ZWCoreKit/Resources\"\nDST_ROOT=$BUILT_PRODUCTS_DIR/Resources\nif [[ ! -d \"$DST_ROOT\" ]]; then mkdir -p \"$DST_ROOT\"; fi;\ncp -Rn \"$SRC_ROOT/\"* \"$DST_ROOT/\"\nexit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE69E30E145620C50042E1B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE98644A14914D18007CD136 /* CALayer+ZWExtensions.m in Sources */,
+				EE98644C14914D18007CD136 /* CATiledLayer+ZWExtensions.m in Sources */,
+				EE98644E14914D18007CD136 /* CATransaction+ZWExtensions.m in Sources */,
+				EE98645014914D18007CD136 /* CGColor+ZWExtensions.m in Sources */,
+				EE98645214914D18007CD136 /* CGColorSpace+ZWExtensions.m in Sources */,
+				EE98645414914D18007CD136 /* CGContext+ZWExtensions.m in Sources */,
+				EE98645614914D18007CD136 /* CGImage+ZWExtensions.m in Sources */,
+				EE98645814914D18007CD136 /* CGPath+ZWExtensions.m in Sources */,
+				EE98645A14914D18007CD136 /* CGPattern+ZWExtensions.m in Sources */,
+				EE98645C14914D18007CD136 /* CGPoint+ZWExtensions.m in Sources */,
+				EE98645E14914D18007CD136 /* CGRect+ZWExtensions.m in Sources */,
+				EE98646014914D18007CD136 /* CGSize+ZWExtensions.m in Sources */,
+				EE98646214914D18007CD136 /* ZWB64.m in Sources */,
+				EE98646414914D18007CD136 /* ZWCacheManager.m in Sources */,
+				EE98646614914D18007CD136 /* ZWCollectionHasMultipleValueTransformer.m in Sources */,
+				EE98646814914D18007CD136 /* ZWCollectionHasSingleValueTransformer.m in Sources */,
+				EE98646A14914D18007CD136 /* ZWCollectionIsEmptyValueTransformer.m in Sources */,
+				EE98646C14914D18007CD136 /* ZWCollectionIsNotEmptyValueTransformer.m in Sources */,
+				EE98646E14914D18007CD136 /* ZWConcurrentOperation.m in Sources */,
+				EE98647014914D18007CD136 /* ZWCoreDataContainer.m in Sources */,
+				EE98647514914D18007CD136 /* ZWCoreKitConstants.m in Sources */,
+				EE98647714914D18007CD136 /* ZWCoreKitMacros.m in Sources */,
+				EE98647914914D18007CD136 /* ZWCoreKitTypes.m in Sources */,
+				EE98647B14914D18007CD136 /* ZWHMAC.m in Sources */,
+				EE98647D14914D18007CD136 /* ZWLocationMonitor.m in Sources */,
+				EE98647F14914D18007CD136 /* ZWManagedObjectArchiving.m in Sources */,
+				EE98648114914D18007CD136 /* ZWMD5.m in Sources */,
+				EE98648314914D18007CD136 /* ZWMigrationManager.m in Sources */,
+				EE98648514914D18007CD136 /* ZWMigrationRule.m in Sources */,
+				EE98648714914D18007CD136 /* ZWMigrationRuleManyToOne.m in Sources */,
+				EE98648914914D18007CD136 /* ZWMigrationRuleOneToMany.m in Sources */,
+				EE98648B14914D18007CD136 /* ZWMigrationRuleOneToOne.m in Sources */,
+				EE98648D14914D18007CD136 /* ZWSHA1.m in Sources */,
+				EE98648F14914D18007CD136 /* ZWStringFromNumberValueTransformer.m in Sources */,
+				EE98649114914D18007CD136 /* ZWURLCacheManager.m in Sources */,
+				EE98649314914D18007CD136 /* ZWURLFromStringValueTransformer.m in Sources */,
+				EE98649514914D18007CD136 /* ZWValueTransformer.m in Sources */,
+				EE98649714914D18007CD136 /* ZWWaitOperation.m in Sources */,
+				EE98649914914D18007CD136 /* CLLocation+ZWExtensions.m in Sources */,
+				EE98649B14914D18007CD136 /* CoreLocation+ZWExtensions.m in Sources */,
+				EE98649D14914D18007CD136 /* hmac.m in Sources */,
+				EE9864A114914D18007CD136 /* md5.m in Sources */,
+				EE9864B714914D18007CD136 /* NSArray+ZWExtensions.m in Sources */,
+				EE9864B914914D18007CD136 /* NSAutoreleasePool+ZWExtensions.m in Sources */,
+				EE9864BB14914D18007CD136 /* NSCoder+ZWExtensions.m in Sources */,
+				EE9864BD14914D18007CD136 /* NSData+ZWExtensions.m in Sources */,
+				EE9864BF14914D18007CD136 /* NSDate+ZWExtensions.m in Sources */,
+				EE9864C114914D18007CD136 /* NSDictionary+ZWExtensions.m in Sources */,
+				EE9864C314914D18007CD136 /* NSEnumerator+ZWExtensions.m in Sources */,
+				EE9864C514914D18007CD136 /* NSFetchRequest+ZWExtensions.m in Sources */,
+				EE9864C714914D18007CD136 /* NSFileManager+ZWExtensions.m in Sources */,
+				EE9864C914914D18007CD136 /* NSIndexPath+ZWExtensions.m in Sources */,
+				EE9864CB14914D18007CD136 /* NSInvocation+ZWExtensions.m in Sources */,
+				EE9864CD14914D18007CD136 /* NSManagedObject+ZWExtensions.m in Sources */,
+				EE9864CF14914D18007CD136 /* NSManagedObjectContext+ZWExtensions.m in Sources */,
+				EE9864D114914D18007CD136 /* NSMutableDictionary+ZWExtensions.m in Sources */,
+				EE9864D314914D18007CD136 /* NSNotificationCenter+ZWExtensions.m in Sources */,
+				EE9864D514914D18007CD136 /* NSObject+ZWExtensions.m in Sources */,
+				EE9864D714914D18007CD136 /* NSOperation+ZWExtensions.m in Sources */,
+				EE9864D914914D18007CD136 /* NSOperationQueue+ZWExtensions.m in Sources */,
+				EE9864DB14914D18007CD136 /* NSPersistentStore+ZWExtensions.m in Sources */,
+				EE9864DD14914D18007CD136 /* NSPersistentStoreCoordinator+ZWExtensions.m in Sources */,
+				EE9864DF14914D18007CD136 /* NSScanner+ZWExtensions.m in Sources */,
+				EE9864E114914D18007CD136 /* NSSet+ZWExtensions.m in Sources */,
+				EE9864E314914D18007CD136 /* NSString+ZWExtensions.m in Sources */,
+				EE9864E514914D18007CD136 /* NSUserDefaults+ZWExtensions.m in Sources */,
+				EE9864E714914D18007CD136 /* ObjC+ZWExtensions.m in Sources */,
+				EE9864E914914D18007CD136 /* sha1.m in Sources */,
+				EE98650714914DFB007CD136 /* ZWBlockInvocation.m in Sources */,
+				EE98650A14914DFB007CD136 /* ZWGeometry.m in Sources */,
+				EE98650E14914DFB007CD136 /* ZWReachabilityMonitor.m in Sources */,
+				EEDC3A2C155FFB7000678E17 /* ZWWeakRuntime.m in Sources */,
+				EEDC3A30155FFB7000678E17 /* ZWWeakRuntimeClang.m in Sources */,
+				EEDC3A34155FFB7000678E17 /* ZWWeakRuntimeProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F37591500674C00274C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F3768150067E000274C48 /* CALayer+ZWExtensions.m in Sources */,
+				EE8F3769150067E000274C48 /* CATiledLayer+ZWExtensions.m in Sources */,
+				EE8F376A150067E000274C48 /* CATransaction+ZWExtensions.m in Sources */,
+				EE8F376B150067E000274C48 /* CGColor+ZWExtensions.m in Sources */,
+				EE8F376C150067E000274C48 /* CGColorSpace+ZWExtensions.m in Sources */,
+				EE8F376D150067E000274C48 /* CGContext+ZWExtensions.m in Sources */,
+				EE8F376E150067E000274C48 /* CGImage+ZWExtensions.m in Sources */,
+				EE8F376F150067E000274C48 /* CGPath+ZWExtensions.m in Sources */,
+				EE8F3770150067E000274C48 /* CGPattern+ZWExtensions.m in Sources */,
+				EE8F3771150067E000274C48 /* CGPoint+ZWExtensions.m in Sources */,
+				EE8F3772150067E000274C48 /* CGRect+ZWExtensions.m in Sources */,
+				EE8F3773150067E000274C48 /* CGSize+ZWExtensions.m in Sources */,
+				EE8F3774150067E000274C48 /* CLLocation+ZWExtensions.m in Sources */,
+				EE8F3775150067E000274C48 /* CoreLocation+ZWExtensions.m in Sources */,
+				EE8F3776150067E000274C48 /* NSArray+ZWExtensions.m in Sources */,
+				EE8F3777150067E000274C48 /* NSAutoreleasePool+ZWExtensions.m in Sources */,
+				EE8F3778150067E000274C48 /* NSCoder+ZWExtensions.m in Sources */,
+				EE8F3779150067E000274C48 /* NSData+ZWExtensions.m in Sources */,
+				EE8F377A150067E000274C48 /* NSDate+ZWExtensions.m in Sources */,
+				EE8F377B150067E000274C48 /* NSDictionary+ZWExtensions.m in Sources */,
+				EE8F377C150067E000274C48 /* NSEnumerator+ZWExtensions.m in Sources */,
+				EE8F377D150067E000274C48 /* NSFetchRequest+ZWExtensions.m in Sources */,
+				EE8F377E150067E000274C48 /* NSFileManager+ZWExtensions.m in Sources */,
+				EE8F377F150067E000274C48 /* NSIndexPath+ZWExtensions.m in Sources */,
+				EE8F3780150067E000274C48 /* NSInvocation+ZWExtensions.m in Sources */,
+				EE8F3781150067E000274C48 /* NSManagedObject+ZWExtensions.m in Sources */,
+				EE8F3782150067E000274C48 /* NSManagedObjectContext+ZWExtensions.m in Sources */,
+				EE8F3783150067E000274C48 /* NSMutableDictionary+ZWExtensions.m in Sources */,
+				EE8F3784150067E000274C48 /* NSNotificationCenter+ZWExtensions.m in Sources */,
+				EE8F3785150067E000274C48 /* NSObject+ZWExtensions.m in Sources */,
+				EE8F3786150067E000274C48 /* NSOperation+ZWExtensions.m in Sources */,
+				EE8F3787150067E000274C48 /* NSOperationQueue+ZWExtensions.m in Sources */,
+				EE8F3788150067E000274C48 /* NSPersistentStore+ZWExtensions.m in Sources */,
+				EE8F3789150067E000274C48 /* NSPersistentStoreCoordinator+ZWExtensions.m in Sources */,
+				EE8F378A150067E000274C48 /* NSScanner+ZWExtensions.m in Sources */,
+				EE8F378B150067E000274C48 /* NSSet+ZWExtensions.m in Sources */,
+				EE8F378C150067E000274C48 /* NSString+ZWExtensions.m in Sources */,
+				EE8F378D150067E000274C48 /* NSUserDefaults+ZWExtensions.m in Sources */,
+				EE8F378E150067E000274C48 /* ObjC+ZWExtensions.m in Sources */,
+				EE8F378F150067E400274C48 /* sha1.m in Sources */,
+				EE8F3790150067E400274C48 /* hmac.m in Sources */,
+				EE8F3791150067E400274C48 /* md5.m in Sources */,
+				EE8F3792150067E400274C48 /* ZWB64.m in Sources */,
+				EE8F3793150067E400274C48 /* ZWHMAC.m in Sources */,
+				EE8F3794150067E400274C48 /* ZWMD5.m in Sources */,
+				EE8F3795150067E400274C48 /* ZWSHA1.m in Sources */,
+				EE8F3796150067EC00274C48 /* ZWCacheManager.m in Sources */,
+				EE8F3797150067EC00274C48 /* ZWURLCacheManager.m in Sources */,
+				EE8F3798150067EC00274C48 /* ZWValueTransformer.m in Sources */,
+				EE8F3799150067EC00274C48 /* ZWCollectionHasMultipleValueTransformer.m in Sources */,
+				EE8F379A150067EC00274C48 /* ZWCollectionHasSingleValueTransformer.m in Sources */,
+				EE8F379B150067EC00274C48 /* ZWCollectionIsEmptyValueTransformer.m in Sources */,
+				EE8F379C150067EC00274C48 /* ZWCollectionIsNotEmptyValueTransformer.m in Sources */,
+				EE8F379D150067EC00274C48 /* ZWStringFromNumberValueTransformer.m in Sources */,
+				EE8F379E150067EC00274C48 /* ZWURLFromStringValueTransformer.m in Sources */,
+				EE8F379F150067F600274C48 /* ZWWaitOperation.m in Sources */,
+				EE8F37A0150067F600274C48 /* ZWConcurrentOperation.m in Sources */,
+				EE8F37A1150067F600274C48 /* ZWMigrationManager.m in Sources */,
+				EE8F37A2150067F600274C48 /* ZWMigrationRule.m in Sources */,
+				EE8F37A3150067F600274C48 /* ZWMigrationRuleManyToOne.m in Sources */,
+				EE8F37A4150067F600274C48 /* ZWMigrationRuleOneToMany.m in Sources */,
+				EE8F37A5150067F600274C48 /* ZWMigrationRuleOneToOne.m in Sources */,
+				EE8F37A6150067F600274C48 /* ZWCoreDataContainer.m in Sources */,
+				EE8F37A7150067F600274C48 /* ZWManagedObjectArchiving.m in Sources */,
+				EE8F37A8150067F600274C48 /* ZWLocationMonitor.m in Sources */,
+				EE8F37A9150067F600274C48 /* ZWBlockInvocation.m in Sources */,
+				EE8F37AA150067F600274C48 /* ZWGeometry.m in Sources */,
+				EE8F37B2150067FF00274C48 /* ZWCoreKitConstants.m in Sources */,
+				EE8F37B3150067FF00274C48 /* ZWCoreKitMacros.m in Sources */,
+				EE8F37B4150067FF00274C48 /* ZWCoreKitTypes.m in Sources */,
+				EE8F381F150175C600274C48 /* ZWReachabilityMonitor.m in Sources */,
+				EEDC3A2D155FFB7000678E17 /* ZWWeakRuntime.m in Sources */,
+				EEDC3A31155FFB7000678E17 /* ZWWeakRuntimeClang.m in Sources */,
+				EEDC3A35155FFB7000678E17 /* ZWWeakRuntimeProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE0D266C13D6461500947556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZWCoreKit/ZWCoreKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RELEASE=0",
+					"DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Resources/ZWCoreKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = ./include/ZWCoreKit/;
+				PUBLIC_HEADERS_FOLDER_PATH = ./include/ZWCoreKit/;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EE0D266D13D6461500947556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZWCoreKit/ZWCoreKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RELEASE=1",
+					"DEBUG=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Resources/ZWCoreKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = ./include/ZWCoreKit/;
+				PUBLIC_HEADERS_FOLDER_PATH = ./include/ZWCoreKit/;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE69E31C145620C50042E1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE69E31D145620C50042E1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EE8F37661500674D00274C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				PRODUCT_NAME = "ZWCoreKit-OSX";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE8F37671500674D00274C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				PRODUCT_NAME = "ZWCoreKit-OSX";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE0D265B13D6461500947556 /* Build configuration list for PBXProject "ZWCoreKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0D266C13D6461500947556 /* Debug */,
+				EE0D266D13D6461500947556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE69E31B145620C50042E1B3 /* Build configuration list for PBXNativeTarget "ZWCoreKit-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE69E31C145620C50042E1B3 /* Debug */,
+				EE69E31D145620C50042E1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8F37651500674D00274C48 /* Build configuration list for PBXNativeTarget "ZWCoreKit-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8F37661500674D00274C48 /* Debug */,
+				EE8F37671500674D00274C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE0D265813D6461500947556 /* Project object */;
+}
