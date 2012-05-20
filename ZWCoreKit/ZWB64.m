@@ -1,4 +1,5 @@
 #import "ZWB64.h"
+#import "NSString+ZWExtensions.h"
 
 static const char encodingTable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 static const char decodingTable[] = {

@@ -1,3 +1,4 @@
+#import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
 
 extern void CGContextDrawImageAtPoint(CGContextRef context, CGPoint point, CGImageRef image);

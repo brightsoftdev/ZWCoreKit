@@ -1,3 +1,5 @@
+#import <Foundation/Foundation.h>
+
 #define DEG2RAD(__V__) __V__ * M_PI / 180.0
 #define RAD2DEG(__V__) __V__ * 180.0 / M_PI
 
@@ -29,3 +31,12 @@ static inline NSURL *ZWResourceURLInBundle(NSString *name, NSBundle *bundle) {
 #define ZWRetain(obj) { void *robj = (__bridge_retained void *)obj; robj = nil; }
 
 #define ZWRelease(obj) { void *robj = (__bridge void *)obj; id robj2 = (__bridge_transfer id)robj; robj2 = nil; }
+
+#if TARGET_SDK_OSX
+#define CGRectFromString(v) NSRectFromString(v)
+#define CGSizeFromString(v) NSSizeFromString(v)
+#define CGPointFromString(v) NSPointFromString(v)
+#define NSStringFromCGRect(v) NSStringFromRect(v)
+#define NSStringFromCGSize(v) NSStringFromSize(v)
+#define NSStringFromCGPoint(v) NSStringFromPoint(v)
+#endif

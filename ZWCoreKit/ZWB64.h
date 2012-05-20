@@ -1,3 +1,5 @@
+#import <Foundation/Foundation.h>
+
 @interface NSData (ZWB64Extensions)
 
 - (NSData *)base64EncodedData;

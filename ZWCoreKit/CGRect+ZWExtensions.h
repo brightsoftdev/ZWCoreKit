@@ -1,3 +1,6 @@
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+
 static inline
 CGRect CGRectMakeCentered(CGSize size, CGSize inside) {
 	return CGRectMake(inside.width / 2 - size.width / 2, inside.height / 2 - size.height / 2, size.width, size.height);

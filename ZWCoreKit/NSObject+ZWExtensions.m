@@ -1,7 +1,7 @@
 #import "NSObject+ZWExtensions.h"
-#import "NSAutoreleasePool+ZWExtensions.h"
 #import <objc/runtime.h>
 #import <objc/message.h>
+#import "ObjC+ZWExtensions.h"
 
 
 

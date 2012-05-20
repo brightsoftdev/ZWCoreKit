@@ -1,5 +1,11 @@
+#import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
-#import "ZWGeometry.h"
+#if TARGET_SDK_IOS
+#import <UIKit/UIKit.h>
+#endif
+#if TARGET_SDK_OSX
+#import <AppKit/AppKit.h>
+#endif
 
 /* rect */
 static inline CGRect NSManagedObjectRectFromString(NSManagedObject *target, NSString *key) {

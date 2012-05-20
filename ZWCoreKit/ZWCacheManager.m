@@ -1,4 +1,5 @@
 #import "ZWCacheManager.h"
+#import "NSString+ZWExtensions.h"
 
 @interface ZWCacheManager() {
 }

@@ -1,5 +1,5 @@
 #import "CATiledLayer+ZWExtensions.h"
-
+#import "NSObject+ZWExtensions.h"
 
 @implementation CATiledLayer (ZWExtensions)
 

@@ -1,4 +1,5 @@
 #import "NSPersistentStoreCoordinator+ZWExtensions.h"
+#import "NSObject+ZWExtensions.h"
 
 static void *managedObjectContextsKey;
 static void *parentManagedObjectContextKey;

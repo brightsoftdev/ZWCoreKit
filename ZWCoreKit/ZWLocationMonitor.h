@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 
 enum {
 	ZWLocationMonitorStateNone = 0, /* none */

@@ -1,4 +1,5 @@
 #import "NSManagedObjectContext+ZWExtensions.h"
+#import "NSFetchRequest+ZWExtensions.h"
 
 @implementation NSManagedObjectContext (ZWExtensions)
 

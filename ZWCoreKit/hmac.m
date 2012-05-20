@@ -35,7 +35,7 @@ void HMACSHA1(const unsigned char *data, NSUInteger dataLength, const unsigned c
 	// inner sha1
 	ctx = SHA1ContextInit();
 	SHA1ContextUpdate(ctx, k_ipad, B);
-	SHA1ContextUpdate(ctx, data, dataLength);
+	SHA1ContextUpdate(ctx, data, (unsigned int)dataLength);
 	SHA1ContextFinal(ctx, digestOut);
 	
 	ctx = SHA1ContextInit();

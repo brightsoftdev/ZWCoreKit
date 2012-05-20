@@ -1,4 +1,5 @@
 #import "CALayer+ZWExtensions.h"
+#import "CGImage+ZWExtensions.h"
 
 
 @implementation CALayer (ZWExtensions)

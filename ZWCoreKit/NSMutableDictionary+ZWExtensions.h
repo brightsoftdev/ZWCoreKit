@@ -1,4 +1,10 @@
 #import <Foundation/Foundation.h>
+#if TARGET_SDK_IOS
+#import <UIKit/UIKit.h>
+#endif
+#if TARGET_SDK_OSX
+#import <AppKit/AppKit.h>
+#endif
 
 
 @interface NSMutableDictionary (ZWExtensions)

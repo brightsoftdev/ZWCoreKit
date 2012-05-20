@@ -1,3 +1,6 @@
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+
 static inline
 CGSize CGSizeScale(CGSize size, CGFloat scaleX, CGFloat scaleY) {
 	return CGSizeApplyAffineTransform(size, CGAffineTransformMakeScale(scaleX, scaleY));

@@ -1,4 +1,8 @@
 #import "CGImage+ZWExtensions.h"
+#import "CGColorSpace+ZWExtensions.h"
+#if TARGET_SDK_IOS
+#import <ImageIO/ImageIO.h>
+#endif
 
 CGImageRef CGImageCreateWithContentsOfFile(NSString *file) {
 	return CGImageCreateWithContentsOfURL([NSURL fileURLWithPath:file]);

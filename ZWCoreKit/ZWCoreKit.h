@@ -1,7 +1,5 @@
 #import <ZWCoreKit/ZWCoreKitAvailability.h>
 
-#import <ZWCoreKit/ZWWeakRuntime.h>
-
 #import <ZWCoreKit/ZWCoreKitTypes.h>
 #import <ZWCoreKit/ZWCoreKitConstants.h>
 #import <ZWCoreKit/ZWCoreKitMacros.h>
@@ -44,7 +42,6 @@
 #import <ZWCoreKit/CGContext+ZWExtensions.h>
 #import <ZWCoreKit/NSData+ZWExtensions.h>
 #import <ZWCoreKit/NSDate+ZWExtensions.h>
-#import <ZWCoreKit/NSAutoreleasePool+ZWExtensions.h>
 #import <ZWCoreKit/CGPoint+ZWExtensions.h>
 #import <ZWCoreKit/CGSize+ZWExtensions.h>
 #import <ZWCoreKit/CGRect+ZWExtensions.h>
@@ -72,10 +69,6 @@
 #import <ZWCoreKit/ZWMigrationRuleOneToOne.h>
 #import <ZWCoreKit/ZWCoreDataContainer.h>
 #import <ZWCoreKit/ZWManagedObjectArchiving.h>
-
-#if TARGET_SDK_IOS
-#import <ZWCoreKit/ZWReachabilityMonitor.h>
-#endif
 
 #import <ZWCoreKit/ZWLocationMonitor.h>
 

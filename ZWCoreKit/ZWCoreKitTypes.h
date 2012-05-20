@@ -1,3 +1,5 @@
+#import <Foundation/Foundation.h>
+
 #pragma mark - Types & Enums
 
 typedef enum {

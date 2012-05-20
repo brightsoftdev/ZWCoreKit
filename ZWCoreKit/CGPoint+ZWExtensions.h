@@ -1,3 +1,6 @@
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+
 static inline
 CGPoint CGPointNegate(CGPoint p) {
 	return CGPointMake(-p.x, -p.y);
