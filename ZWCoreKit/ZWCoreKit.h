@@ -60,7 +60,6 @@
 #import <ZWCoreKit/ZWURLFromStringValueTransformer.h>
 
 #import <ZWCoreKit/ZWEasingEquations.h>
-#import <ZWCoreKit/ZWGeometry.h>
 #import <ZWCoreKit/ZWBlockInvocation.h>
 
 #import <ZWCoreKit/ZWMigrationManager.h>

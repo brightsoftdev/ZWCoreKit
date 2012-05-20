@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 
-#define DEG2RAD(__V__) __V__ * M_PI / 180.0
-#define RAD2DEG(__V__) __V__ * 180.0 / M_PI
+#define ZWDegreesToRadians(__V__) __V__ * M_PI / 180.0
+#define ZWRadiansToDegrees(__V__) __V__ * 180.0 / M_PI
 
 static inline NSString *ZWGloballyUniqueIdentifier() {
 	return [[NSProcessInfo processInfo] globallyUniqueString];

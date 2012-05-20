@@ -72,7 +72,6 @@
 		EE8F37A7150067F600274C48 /* ZWManagedObjectArchiving.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863DC14914D18007CD136 /* ZWManagedObjectArchiving.m */; };
 		EE8F37A8150067F600274C48 /* ZWLocationMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863DA14914D18007CD136 /* ZWLocationMonitor.m */; };
 		EE8F37A9150067F600274C48 /* ZWBlockInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9864F314914DFB007CD136 /* ZWBlockInvocation.m */; };
-		EE8F37AA150067F600274C48 /* ZWGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9864F614914DFB007CD136 /* ZWGeometry.m */; };
 		EE8F37B2150067FF00274C48 /* ZWCoreKitConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863D214914D18007CD136 /* ZWCoreKitConstants.m */; };
 		EE8F37B3150067FF00274C48 /* ZWCoreKitMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863D414914D18007CD136 /* ZWCoreKitMacros.m */; };
 		EE8F37B4150067FF00274C48 /* ZWCoreKitTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9863D614914D18007CD136 /* ZWCoreKitTypes.m */; };
@@ -144,7 +143,6 @@
 		EE8F37FA1500681400274C48 /* ZWLocationMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863D914914D18007CD136 /* ZWLocationMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE8F37FB1500681400274C48 /* ZWBlockInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9864F214914DFB007CD136 /* ZWBlockInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE8F37FC1500681400274C48 /* ZWEasingEquations.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9864F414914DFB007CD136 /* ZWEasingEquations.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE8F37FD1500681400274C48 /* ZWGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9864F514914DFB007CD136 /* ZWGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE8F38061500683B00274C48 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98644714914D18007CD136 /* sha1.h */; };
 		EE8F38071500683B00274C48 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863F914914D18007CD136 /* hmac.h */; };
 		EE8F38081500683B00274C48 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9863FD14914D18007CD136 /* md5.h */; };
@@ -287,8 +285,6 @@
 		EE98650614914DFB007CD136 /* ZWBlockInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9864F214914DFB007CD136 /* ZWBlockInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE98650714914DFB007CD136 /* ZWBlockInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9864F314914DFB007CD136 /* ZWBlockInvocation.m */; };
 		EE98650814914DFB007CD136 /* ZWEasingEquations.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9864F414914DFB007CD136 /* ZWEasingEquations.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE98650914914DFB007CD136 /* ZWGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9864F514914DFB007CD136 /* ZWGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE98650A14914DFB007CD136 /* ZWGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9864F614914DFB007CD136 /* ZWGeometry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -434,8 +430,6 @@
 		EE9864F214914DFB007CD136 /* ZWBlockInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWBlockInvocation.h; sourceTree = "<group>"; };
 		EE9864F314914DFB007CD136 /* ZWBlockInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWBlockInvocation.m; sourceTree = "<group>"; };
 		EE9864F414914DFB007CD136 /* ZWEasingEquations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWEasingEquations.h; sourceTree = "<group>"; };
-		EE9864F514914DFB007CD136 /* ZWGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWGeometry.h; sourceTree = "<group>"; };
-		EE9864F614914DFB007CD136 /* ZWGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWGeometry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -672,8 +666,6 @@
 				EE9864F214914DFB007CD136 /* ZWBlockInvocation.h */,
 				EE9864F314914DFB007CD136 /* ZWBlockInvocation.m */,
 				EE9864F414914DFB007CD136 /* ZWEasingEquations.h */,
-				EE9864F514914DFB007CD136 /* ZWGeometry.h */,
-				EE9864F614914DFB007CD136 /* ZWGeometry.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -753,7 +745,6 @@
 				EE9864E614914D18007CD136 /* ObjC+ZWExtensions.h in Headers */,
 				EE98650614914DFB007CD136 /* ZWBlockInvocation.h in Headers */,
 				EE98650814914DFB007CD136 /* ZWEasingEquations.h in Headers */,
-				EE98650914914DFB007CD136 /* ZWGeometry.h in Headers */,
 				EE98649C14914D18007CD136 /* hmac.h in Headers */,
 				EE9864A014914D18007CD136 /* md5.h in Headers */,
 				EE9864E814914D18007CD136 /* sha1.h in Headers */,
@@ -832,7 +823,6 @@
 				EE8F37FA1500681400274C48 /* ZWLocationMonitor.h in Headers */,
 				EE8F37FB1500681400274C48 /* ZWBlockInvocation.h in Headers */,
 				EE8F37FC1500681400274C48 /* ZWEasingEquations.h in Headers */,
-				EE8F37FD1500681400274C48 /* ZWGeometry.h in Headers */,
 				EE8F38061500683B00274C48 /* sha1.h in Headers */,
 				EE8F38071500683B00274C48 /* hmac.h in Headers */,
 				EE8F38081500683B00274C48 /* md5.h in Headers */,
@@ -975,7 +965,6 @@
 				EE9864E714914D18007CD136 /* ObjC+ZWExtensions.m in Sources */,
 				EE9864E914914D18007CD136 /* sha1.m in Sources */,
 				EE98650714914DFB007CD136 /* ZWBlockInvocation.m in Sources */,
-				EE98650A14914DFB007CD136 /* ZWGeometry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1048,7 +1037,6 @@
 				EE8F37A7150067F600274C48 /* ZWManagedObjectArchiving.m in Sources */,
 				EE8F37A8150067F600274C48 /* ZWLocationMonitor.m in Sources */,
 				EE8F37A9150067F600274C48 /* ZWBlockInvocation.m in Sources */,
-				EE8F37AA150067F600274C48 /* ZWGeometry.m in Sources */,
 				EE8F37B2150067FF00274C48 /* ZWCoreKitConstants.m in Sources */,
 				EE8F37B3150067FF00274C48 /* ZWCoreKitMacros.m in Sources */,
 				EE8F37B4150067FF00274C48 /* ZWCoreKitTypes.m in Sources */,
