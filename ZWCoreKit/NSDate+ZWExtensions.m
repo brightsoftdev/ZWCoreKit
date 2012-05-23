@@ -33,8 +33,31 @@
 	return ([self compare:pOtherDate] == NSOrderedAscending);
 }
 - (BOOL)isAfter:(NSDate *)pOtherDate {
-	return ([self compare:pOtherDate] == NSOrderedDescending);
-	
+	return ([self compare:pOtherDate] == NSOrderedDescending);	
+}
+- (BOOL)isOrBefore:(NSDate *)pOtherDate {
+	NSComparisonResult r = [self compare:pOtherDate];
+	return (r == NSOrderedSame || r == NSOrderedAscending);
+}
+- (BOOL)isOrAfter:(NSDate *)pOtherDate {
+	NSComparisonResult r = [self compare:pOtherDate];
+	return (r == NSOrderedSame || r == NSOrderedDescending);
+}
+
+- (BOOL)isToday {
+	NSDateComponents *components = [[NSDate gregorianCalendar] components:NSDayCalendarUnit fromDate:self];
+	NSDateComponents *todayComponents = [[NSDate gregorianCalendar] components:NSDayCalendarUnit fromDate:[NSDate date]];
+	return (components.day == todayComponents.day);
+}
+- (BOOL)isTomorrow {
+	NSDateComponents *components = [[NSDate gregorianCalendar] components:NSDayCalendarUnit fromDate:self];
+	NSDateComponents *todayComponents = [[NSDate gregorianCalendar] components:NSDayCalendarUnit fromDate:[NSDate tomorrow]];
+	return (components.day == todayComponents.day);
+}
+- (BOOL)wasYesterday {
+	NSDateComponents *components = [[NSDate gregorianCalendar] components:NSDayCalendarUnit fromDate:self];
+	NSDateComponents *todayComponents = [[NSDate gregorianCalendar] components:NSDayCalendarUnit fromDate:[NSDate yesterday]];
+	return (components.day == todayComponents.day);
 }
 
 @end
