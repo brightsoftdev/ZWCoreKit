@@ -32,5 +32,7 @@
 
 - (NSString *)stringByURLEncoding:(NSStringEncoding)pEncoding;
 - (NSString *)stringByURLDecoding:(NSStringEncoding)pEncoding;
+
+- (NSString *)stringByHTMLEntityDecoding;
  
 @end
