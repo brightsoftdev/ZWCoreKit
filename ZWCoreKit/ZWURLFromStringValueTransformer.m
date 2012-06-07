@@ -17,7 +17,7 @@
 	return YES;
 }
 - (id)transformedValue:(id)pValue {
-	if([pValue isKindOfClass:[NSString class]]) {
+	if([pValue isKindOfClass:[NSString class]] && [pValue length] > 0) {
 		return [NSURL URLWithString:pValue];
 	}
 	return nil;
