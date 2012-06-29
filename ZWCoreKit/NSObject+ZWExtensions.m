@@ -83,4 +83,35 @@
 	}
 }
 
+- (void)withValueForKey:(NSString *)pKey block:(void (^)(id object))pBlock {
+	if(!pBlock) {
+		return;
+	}
+	
+	id value = nil;
+	@try {
+		value = [self valueForKey:pKey];
+	}
+	@catch (NSException *exception) {
+	}
+	@finally {
+		pBlock(value);
+	}
+}
+- (void)withValueForKeyPath:(NSString *)pKeyPath block:(void (^)(id object))pBlock {
+	if(!pBlock) {
+		return;
+	}
+	
+	id value = nil;
+	@try {
+		value = [self valueForKeyPath:pKeyPath];
+	}
+	@catch (NSException *exception) {
+	}
+	@finally {
+		pBlock(value);
+	}
+}
+
 @end
