@@ -38,7 +38,7 @@
 - (NSDictionary *)dictionaryWithValuesForKeyPaths:(NSArray *)pKeyPaths;
 - (void)setValuesForKeyPathsWithDictionary:(NSDictionary *)pDictionary;
 
-- (void)withValueForKey:(NSString *)pKey block:(void (^)(id object))pBlock;
-- (void)withValueForKeyPath:(NSString *)pKeyPath block:(void (^)(id object))pBlock;
+- (void)withValueForKey:(NSString *)pKey block:(void (^)(id value))pBlock;
+- (void)withValueForKeyPath:(NSString *)pKeyPath block:(void (^)(id value))pBlock;
 
 @end

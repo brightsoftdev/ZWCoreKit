@@ -83,7 +83,7 @@
 	}
 }
 
-- (void)withValueForKey:(NSString *)pKey block:(void (^)(id object))pBlock {
+- (void)withValueForKey:(NSString *)pKey block:(void (^)(id value))pBlock {
 	if(!pBlock) {
 		return;
 	}
@@ -95,10 +95,12 @@
 	@catch (NSException *exception) {
 	}
 	@finally {
-		pBlock(value);
+		if(value) {
+			pBlock(value);
+		}
 	}
 }
-- (void)withValueForKeyPath:(NSString *)pKeyPath block:(void (^)(id object))pBlock {
+- (void)withValueForKeyPath:(NSString *)pKeyPath block:(void (^)(id value))pBlock {
 	if(!pBlock) {
 		return;
 	}
@@ -110,7 +112,9 @@
 	@catch (NSException *exception) {
 	}
 	@finally {
-		pBlock(value);
+		if(value) {
+			pBlock(value);
+		}
 	}
 }
 
