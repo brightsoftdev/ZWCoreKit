@@ -3,11 +3,6 @@
 
 @implementation ZWCollectionIsNotEmptyValueTransformer
 
-+ (void)load {
-	@autoreleasepool {
-		[self registerValueTransformer];
-	}
-}
 + (NSString *)valueTransformerName {
 	return @"ZWCollectionIsNotEmpty";
 }

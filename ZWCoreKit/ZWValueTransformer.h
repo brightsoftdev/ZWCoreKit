@@ -5,8 +5,6 @@
 
 }
 
-+ (NSString *)valueTransformerName;
-+ (void)registerValueTransformer;
 + (ZWValueTransformer *)valueTransformer;
 
 @end

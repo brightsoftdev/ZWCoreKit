@@ -3,14 +3,6 @@
 
 @implementation ZWCollectionIsEmptyValueTransformer
 
-+ (void)load {
-	@autoreleasepool {
-		[self registerValueTransformer];
-	}
-}
-+ (NSString *)valueTransformerName {
-	return @"ZWCollectionIsEmpty";
-}
 + (Class)transformedValueClass {
 	return [NSNumber class];
 }

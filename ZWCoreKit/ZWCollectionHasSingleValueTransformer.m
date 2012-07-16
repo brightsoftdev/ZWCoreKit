@@ -3,11 +3,6 @@
 
 @implementation ZWCollectionHasSingleValueTransformer
 
-+ (void)load {
-	@autoreleasepool {
-		[self registerValueTransformer];
-	}
-}
 + (NSString *)valueTransformerName {
 	return @"ZWCollectionHasSingle";
 }

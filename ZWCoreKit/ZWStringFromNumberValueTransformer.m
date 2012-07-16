@@ -2,11 +2,6 @@
 
 @implementation ZWStringFromNumberValueTransformer
 
-+ (void)load {
-	@autoreleasepool {
-		[self registerValueTransformer];
-	}
-}
 + (NSString *)valueTransformerName {
 	return @"ZWStringFromNumber";
 }

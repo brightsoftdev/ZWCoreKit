@@ -2,11 +2,6 @@
 
 @implementation ZWURLFromStringValueTransformer
 
-+ (void)load {
-	@autoreleasepool {
-		[self registerValueTransformer];
-	}
-}
 + (NSString *)valueTransformerName {
 	return @"ZWURLFromString";
 }

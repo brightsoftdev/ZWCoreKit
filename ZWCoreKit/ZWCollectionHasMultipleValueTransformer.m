@@ -3,11 +3,6 @@
 
 @implementation ZWCollectionHasMultipleValueTransformer
 
-+ (void)load {
-	@autoreleasepool {
-		[self registerValueTransformer];
-	}
-}
 + (NSString *)valueTransformerName {
 	return @"ZWCollectionHasMultiple";
 }
